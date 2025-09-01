@@ -1,1 +1,1 @@
-BingSearchBot
+BingSearchBot{}
