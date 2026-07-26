@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Test{
     public static void binToDec(int bin) {
         int dec = 0,pow = 0;
@@ -19,6 +21,9 @@ public class Test{
         System.out.println("bin:"+bin);
     }
     public static void main(String args[]){
-       dectoBin(7);
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        dectoBin(n);
+        sc.close();
     }
 }
