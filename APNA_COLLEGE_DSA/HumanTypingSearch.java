@@ -8,12 +8,19 @@ import java.util.*;
 public class HumanTypingSearch {
 
     private static final int SEARCH_COUNT = 3;
-    private static final int WORD_LENGTH = 5;
+    private static final int WORD_LENGTH = 10;
+
+    // Timing constants (keep on top)
+    private static final int BETWEEN_ACTION_DELAY_MS = 100;
+    private static final int TYPING_DELAY_VARIANCE_MS = 200;
+    private static final int SEARCH_WAIT_MIN_MS = 1000;
+    private static final int SEARCH_WAIT_MAX_MS = 3000;
 
     private static final List<String> WORDS = new ArrayList<>();
     private static final Random RANDOM = new Random();
 
-    public static void repeat() throws Exception{
+    public static void main(String[] args) throws Exception {
+
         populateWords();
 
         if (WORDS.isEmpty()) {
@@ -27,15 +34,7 @@ public class HumanTypingSearch {
 
         Robot robot = new Robot();
 
-        Thread.sleep(1500);
-
         performSearches(robot);
-    }
-    public static void main(String[] args) throws Exception {
-
-        for(int i=1;i<=3;i++){
-            repeat();
-        }
     }
 
     private static void populateWords() throws Exception {
@@ -70,7 +69,7 @@ public class HumanTypingSearch {
 
             word = word.toLowerCase();
 
-            if (word.length() >= WORD_LENGTH) {
+            if (word.length() >= RANDOM.nextInt(WORD_LENGTH)) {
                 uniqueWords.add(word);
             }
         }
@@ -84,28 +83,34 @@ public class HumanTypingSearch {
     }
 
     private static void performSearches(Robot robot) throws Exception {
-
         for (int i = 0; i < SEARCH_COUNT; i++) {
+
+            // Open a new tab in the already-running Edge instance
+            openNewTab(robot);
+
+            Thread.sleep(BETWEEN_ACTION_DELAY_MS);
+
+            // Ensure address bar is focused (new tab usually focuses it, but be safe)
+            focusAddressBar(robot);
+
+            Thread.sleep(BETWEEN_ACTION_DELAY_MS);
 
             String query = getRandomWord();
 
-            focusAddressBar(robot);
-
-            Thread.sleep(100);
-
             typeText(robot, query);
 
-            Thread.sleep(100);
+            Thread.sleep(BETWEEN_ACTION_DELAY_MS);
 
             pressEnter(robot);
 
             System.out.println("Search " + (i + 1) + ": " + query);
 
-            waitRandom(1000, 3000);
+            waitRandom(SEARCH_WAIT_MIN_MS, SEARCH_WAIT_MAX_MS);
         }
     }
 
     private static String getRandomWord() {
+        if (WORDS.isEmpty()) return "";
         return WORDS.get(RANDOM.nextInt(WORDS.size()));
     }
 
@@ -120,10 +125,9 @@ public class HumanTypingSearch {
 
     private static void typeText(Robot robot, String text)
             throws InterruptedException {
-
         for (char c : text.toCharArray()) {
             type(robot, c);
-            Thread.sleep(80 + RANDOM.nextInt(170));
+            Thread.sleep(RANDOM.nextInt(BETWEEN_ACTION_DELAY_MS,TYPING_DELAY_VARIANCE_MS));
         }
     }
 
@@ -137,6 +141,14 @@ public class HumanTypingSearch {
             throws InterruptedException {
 
         Thread.sleep(minMillis + RANDOM.nextInt(maxMillis - minMillis + 1));
+    }
+
+    private static void openNewTab(Robot robot) {
+        robot.keyPress(KeyEvent.VK_CONTROL);
+        robot.keyPress(KeyEvent.VK_T);
+
+        robot.keyRelease(KeyEvent.VK_T);
+        robot.keyRelease(KeyEvent.VK_CONTROL);
     }
 
     private static void type(Robot robot, char c) {
