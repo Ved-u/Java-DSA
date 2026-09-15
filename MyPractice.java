@@ -542,7 +542,7 @@ public class MyPractice {
         int sum = 0;
         while (n > 0) {
             int digit = n % 10;
-            sum += Math.pow(digit, count);
+            sum += (int) Math.pow(digit, count);
             n /= 10;
         }
         return sum == temp;
@@ -551,7 +551,7 @@ public class MyPractice {
     public static void decToBin(int dec) {
         int bin=0;int count=0;
         while(dec>0){
-            bin+=dec%2*Math.pow(10,count);
+            bin+=dec%2*(int) Math.pow(10,count);
             dec/=2;
             count++;
         }
@@ -579,7 +579,7 @@ public class MyPractice {
     public static void decTobin(int n) {
       int bin=0,count=0;
       while(n>0){
-        bin+=n%2*Math.pow(10, count++);
+        bin+=n%2*(int) Math.pow(10, count++);
         n/=2;
       }
       System.out.println(bin);
@@ -587,7 +587,7 @@ public class MyPractice {
     public static void binTodec(int n) {
         int dec=0,count=0;
         while(n>0){
-            dec+=n%2*Math.pow(2, count++);
+            dec+=n%2*(int) Math.pow(2, count++);
             n/=10;
         }
         System.out.println(dec);
@@ -628,7 +628,6 @@ public class MyPractice {
     public static void books(String[] args) {
         class Book {
             private String title;
-            private String author;
             private String genre;
         
             public Book(String title, String author, String genre) {

@@ -10,6 +10,7 @@ public class abdulbari {
 }
 
 class stackUnderFlow extends Exception{
+    private static final long serialVersionUID = 1L;
     stack s;
     public stackUnderFlow(stack s){
         this.s=s;
@@ -20,6 +21,7 @@ class stackUnderFlow extends Exception{
     }
 }
 class stack extends Exception{
+    private static final long serialVersionUID = 1L;
     int arr[]= new int[5];
     private int indx;
     public stack(){

@@ -5,7 +5,7 @@ public class Test{
         int dec = 0,pow = 0;
         System.out.println("bin:"+bin);
         while(bin > 0){
-            dec += bin%10*Math.pow(2,pow++);
+            dec += bin%10*(int) Math.pow(2,pow++);
             bin/=10;
             
         }

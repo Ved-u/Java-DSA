@@ -617,12 +617,14 @@ class Stack{
    }
 }
 class StackOverFlowException extends Exception{
+   private static final long serialVersionUID = 1L;
    @Override
    public String toString(){
        return "Stack-Overflow";
    }
 }
 class StackUnderFlowException extends Exception{
+   private static final long serialVersionUID = 1L;
    public String toString(){
        return "Stack-Underflow";
    }

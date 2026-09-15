@@ -5,9 +5,7 @@ public class FileToFile {
         FileOutputStream fos = new FileOutputStream("D:/Downloads/Dham.txt");) {
             byte arr[]=fis.readAllBytes();
             String str=new String(arr);
-            fis.close();
             fos.write(str.toLowerCase().getBytes());
-            fos.close();
         } catch (IOException e) {
           System.out.println(e);
         }
@@ -18,11 +16,8 @@ public class FileToFile {
         FileOutputStream fos = new FileOutputStream("D:/Downloads/Society.txt");) {
             byte arr[]=fis.readAllBytes();
             byte brr[]=fis2.readAllBytes();
-            fis.close();           
-            fis2.close();
             fos.write(arr);
             fos.write(brr);
-            fos.close();
         } catch (IOException e) {
           System.out.println(e);
         }
@@ -74,6 +69,7 @@ public class FileToFile {
     }
 }
 class Customer implements Serializable{
+    private static final long serialVersionUID = 1L;
     String custId;
     String name;
     String phoneNo;

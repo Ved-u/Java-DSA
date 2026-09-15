@@ -62,5 +62,6 @@ public class MyQueen {
         } else {
             System.out.println("Solution does not exist");
         }
+        sc.close();
     }
 }

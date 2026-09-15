@@ -483,6 +483,7 @@ class MyStack1{
     return sb.toString();
     }
 }
+@SuppressWarnings("auxiliaryclass")
 class MyStack2 extends MyLinkedList{
     Node t=new Node(100);
     Node head=t.next;int size=0;

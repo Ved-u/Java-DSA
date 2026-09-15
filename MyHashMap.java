@@ -55,17 +55,17 @@ class MyHashMapImplementation<K, V>{
     public static final int DEFAULT_Capacity=5;
     public static final double DEFAULT_LOAD_FACTOR=0.75;
     private int n=0;//number of entries
-    private LinkedList<Node> buckets[];
+    private List<LinkedList<Node>> buckets;
     public MyHashMapImplementation(){
         initBuckets(DEFAULT_Capacity);
     }
     private int hashFunction(K key){
-        return Math.abs(key.hashCode())%buckets.length;
+        return Math.abs(key.hashCode())%buckets.size();
     }
     private void initBuckets(int N){// N-cpacity/size of buket array
-        buckets=new LinkedList[N];
-        for (int i = 0; i < buckets.length; i++) {
-            buckets[i]=new LinkedList<>();
+        buckets=new ArrayList<>(N);
+        for (int i = 0; i < N; i++) {
+            buckets.add(new LinkedList<>());
         }
 
     }
@@ -88,7 +88,7 @@ class MyHashMapImplementation<K, V>{
     }
     public void put(K key,V value){//insertion and updation
         int bi=hashFunction(key);//gererates bucket index 
-        LinkedList<Node> currBucket=buckets[bi];
+        LinkedList<Node> currBucket=buckets.get(bi);
         int ei=searchInBucket(key,currBucket);
         if(ei!=-1){//means key exist and we've to update its value
                 currBucket.get(ei).value=value;
@@ -97,12 +97,12 @@ class MyHashMapImplementation<K, V>{
             n++;
             currBucket.add(t);
         }
-        if(n>=buckets.length*DEFAULT_LOAD_FACTOR)rehash();
+        if(n>=buckets.size()*DEFAULT_LOAD_FACTOR)rehash();
     }
     public void rehash(){
         System.out.println("rehashing...");
-        LinkedList<Node> oldBuckets[]=buckets;
-        initBuckets(oldBuckets.length*2);
+        List<LinkedList<Node>> oldBuckets=buckets;
+        initBuckets(oldBuckets.size()*2);
         n=0;
         for(var bucket:oldBuckets){
             for(var node:bucket){
@@ -113,14 +113,14 @@ class MyHashMapImplementation<K, V>{
     }
     public V get(K key){
         int bi=hashFunction(key);
-        LinkedList<Node> currBucket=buckets[bi];
+        LinkedList<Node> currBucket=buckets.get(bi);
         int ei=searchInBucket(key, currBucket);
         if(ei==-1)return null;
      return currBucket.get(ei).value;
     }
     public V remove(K key){
         int bi=hashFunction(key);
-        LinkedList<Node> currBucket=buckets[bi];
+        LinkedList<Node> currBucket=buckets.get(bi);
         int ei=searchInBucket(key, currBucket);
         if(ei==-1)return null;
         n--;
