@@ -72,10 +72,4 @@ class Customer extends Thread{
         this.amount=amount;
         this.atm=atm;
     }
-    // public void useATM(String trasaction){
-    //     if(tr)
-    // }
-    // public void run(){
-    //     useATM();
-    // }
 }
