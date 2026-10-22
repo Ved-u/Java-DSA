@@ -1,6 +1,6 @@
 package AdvanceDSA;
 
-public class MyGraph {
+public class MyTest {
     static void decToBin(int num){
         StringBuilder bin = new StringBuilder();
         while(num>0){
