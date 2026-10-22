@@ -1,5 +1,13 @@
 package AdvanceDSA;
 public class MyArrays {
+     static void decToBin(int num){
+        StringBuilder bin = new StringBuilder();
+        while(num>0){
+            bin.append(num%2);
+            num/=2;
+        }
+        System.out.println(bin);;
+    }
     public static int[] searchInSortedMatrix(int[][] mat,int key) {// use the (0,m-1) or (n-1,0) as starting pos in N x M matrix
         int n=mat.length,m=mat[0].length;
         int currRow=n-1,currCol=0;
@@ -19,6 +27,6 @@ public class MyArrays {
         return ans;
     }
     public static void main(String[] args) {
-        
+        decToBin(8);
     }
 }
