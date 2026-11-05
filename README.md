@@ -15,7 +15,7 @@ Java DSA
 
 
 
-⏳ 261 solved problems still being imported from LeetCode.
+⏳ 260 solved problems still being imported from LeetCode.
 
 </div>
 
@@ -55,8 +55,8 @@ Java DSA
 xychart-beta
     title "Problems solved (total)"
     x-axis ["Dec 25", "Jan 26", "Feb 26", "Mar 26", "Apr 26", "May 26", "Jun 26", "Jul 26", "Aug 26", "Sept 26", "Oct 26", "Nov 26"]
-    y-axis "Solved" 0 --> 615
-    line [333, 338, 340, 370, 396, 423, 442, 462, 480, 506, 531, 534]
+    y-axis "Solved" 0 --> 620
+    line [333, 338, 340, 370, 396, 423, 442, 463, 481, 507, 532, 535]
 ```
 
 <p align="right"><a href="#ls-top">↑ Back to top</a></p>
@@ -180,7 +180,7 @@ _Topic coverage: a problem counts toward every topic it's tagged with._
 
 | Language | Problems | |
 |---|---|---|
-| Java | 530 | `████████████████` |
+| Java | 531 | `████████████████` |
 | pythondata | 4 | `█░░░░░░░░░░░░░░░` |
 | Python | 1 | `█░░░░░░░░░░░░░░░` |
 
@@ -215,7 +215,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | 492 | [Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 504 | [Base 7](https://leetcode.com/problems/base-7/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/0628-maximum-product-of-three-numbers.md) | 1 | - | - | 26 Jul 2026 |
 | 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 812 | [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 | ⏳ not imported yet | - | - | - | - |
