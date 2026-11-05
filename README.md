@@ -15,7 +15,7 @@ Java DSA
 
 
 
-⏳ 710 solved problems still being imported from LeetCode.
+⏳ 704 solved problems still being imported from LeetCode.
 
 </div>
 
@@ -37,12 +37,12 @@ Java DSA
 | 22 Oct 2026 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Tree/0617-merge-two-binary-trees.md) |
 | 14 Oct 2026 | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque/) | 🟡 Medium | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Linked%20List/0641-design-circular-deque.md) |
 | 11 Oct 2026 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | 🟡 Medium | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Linked%20List/0622-design-circular-queue.md) |
+| 8 Oct 2026 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Stack/1021-remove-outermost-parentheses.md) |
 | 7 Oct 2026 | [Design Linked List](https://leetcode.com/problems/design-linked-list/) | 🟡 Medium | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Linked%20List/0707-design-linked-list.md) |
+| 6 Oct 2026 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 Medium | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Greedy/0921-minimum-add-to-make-parentheses-valid.md) |
 | 3 Oct 2026 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Bit%20Manipulation/0405-convert-a-number-to-hexadecimal.md) |
-| 19 Sept 2026 | [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) | 🟡 Medium | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Divide%20and%20Conquer/0654-maximum-binary-tree.md) |
-| 18 Sept 2026 | [Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Tree/0563-binary-tree-tilt.md) |
-| 17 Sept 2026 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Tree/0501-find-mode-in-binary-search-tree.md) |
-| 6 Sept 2026 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Two%20Pointers/0541-reverse-string-ii.md) |
+| 25 Sept 2026 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Tree/0993-cousins-in-binary-tree.md) |
+| 24 Sept 2026 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Tree/0897-increasing-order-search-tree.md) |
 
 <p align="right"><a href="#ls-top">↑ Back to top</a></p>
 
@@ -55,8 +55,8 @@ Java DSA
 xychart-beta
     title "Problems solved (total)"
     x-axis ["Dec 25", "Jan 26", "Feb 26", "Mar 26", "Apr 26", "May 26", "Jun 26", "Jul 26", "Aug 26", "Sept 26", "Oct 26", "Nov 26"]
-    y-axis "Solved" 0 --> 100
-    line [56, 56, 56, 57, 64, 66, 70, 72, 75, 79, 85, 85]
+    y-axis "Solved" 0 --> 105
+    line [56, 56, 56, 57, 64, 66, 70, 72, 75, 83, 91, 91]
 ```
 
 <p align="right"><a href="#ls-top">↑ Back to top</a></p>
@@ -180,7 +180,7 @@ _Topic coverage: a problem counts toward every topic it's tagged with._
 
 | Language | Problems | |
 |---|---|---|
-| Java | 85 | `████████████████` |
+| Java | 91 | `████████████████` |
 | Python | 1 | `█░░░░░░░░░░░░░░░` |
 
 <p align="right"><a href="#ls-top">↑ Back to top</a></p>
@@ -653,10 +653,10 @@ _Grouped by topic folder. Click a topic to expand it._
 | 701 | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 897 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 897 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Tree/0897-increasing-order-search-tree.md) | 1 | - | - | 24 Sept 2026 |
+| 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Tree/0938-range-sum-of-bst.md) | 3 | - | - | 16 Sept 2026 |
+| 965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Tree/0965-univalued-binary-tree.md) | 1 | - | - | 21 Sept 2026 |
+| 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Tree/0993-cousins-in-binary-tree.md) | 3 | - | - | 25 Sept 2026 |
 | 1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 1022 | [Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 1038 | [Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/) | 🟡 | ⏳ not imported yet | - | - | - | - |
@@ -743,7 +743,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 861 | [Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 881 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 | ⏳ not imported yet | - | - | - | - |
-| 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Greedy/0921-minimum-add-to-make-parentheses-valid.md) | 1 | - | - | 6 Oct 2026 |
 | 942 | [DI String Match](https://leetcode.com/problems/di-string-match/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 945 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 948 | [Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/) | 🟡 | ⏳ not imported yet | - | - | - | - |
@@ -964,7 +964,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | 682 | [Baseball Game](https://leetcode.com/problems/baseball-game/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 901 | [Online Stock Span](https://leetcode.com/problems/online-stock-span/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 946 | [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/) | 🟡 | ⏳ not imported yet | - | - | - | - |
-| 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Stack/1021-remove-outermost-parentheses.md) | 1 | - | - | 8 Oct 2026 |
 | 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 1190 | [Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 1381 | [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/) | 🟡 | ⏳ not imported yet | - | - | - | - |
