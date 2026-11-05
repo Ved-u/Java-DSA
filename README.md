@@ -13,7 +13,7 @@ Java DSA
 
 <img alt="Ved-u's LeetCode stats" src=".leetstash/card.svg" width="100%">
 
-
+🎯 **Goal:** 795 / 1000 problems (80%).
 
 ⏳ 195 solved problems still being imported from LeetCode.
 
