@@ -15,7 +15,7 @@ Java DSA
 
 🎯 **Goal:** 795 / 1000 problems (80%) by 1 Jan 2027. About 26 problems a week gets you there.
 
-⏳ 148 solved problems still being imported from LeetCode.
+⏳ 131 solved problems still being imported from LeetCode.
 
 </div>
 
@@ -55,8 +55,8 @@ Java DSA
 xychart-beta
     title "Problems solved (total)"
     x-axis ["Dec 25", "Jan 26", "Feb 26", "Mar 26", "Apr 26", "May 26", "Jun 26", "Jul 26", "Aug 26", "Sept 26", "Oct 26", "Nov 26"]
-    y-axis "Solved" 0 --> 745
-    line [427, 433, 435, 467, 498, 530, 554, 577, 595, 621, 644, 647]
+    y-axis "Solved" 0 --> 765
+    line [443, 449, 451, 484, 515, 547, 571, 594, 612, 638, 661, 664]
 ```
 
 <p align="right"><a href="#ls-top">↑ Back to top</a></p>
@@ -180,7 +180,7 @@ _Topic coverage: a problem counts toward every topic it's tagged with._
 
 | Language | Problems | |
 |---|---|---|
-| Java | 642 | `████████████████` |
+| Java | 659 | `████████████████` |
 | pythondata | 4 | `█░░░░░░░░░░░░░░░` |
 | Python | 1 | `█░░░░░░░░░░░░░░░` |
 | mysql | 1 | `█░░░░░░░░░░░░░░░` |
@@ -230,9 +230,9 @@ _Grouped by topic folder. Click a topic to expand it._
 | 1360 | [Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/1360-number-of-days-between-two-dates.md) | 1 | - | - | 29 Oct 2026 |
 | 1390 | [Four Divisors](https://leetcode.com/problems/four-divisors/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Math/1390-four-divisors.md) | 1 | 10 ms, beats 77.6% | - | 31 May 2026 |
 | 1492 | [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Math/1492-the-kth-factor-of-n.md) | 1 | 0 ms, beats 100.0% | - | 29 Feb 2024 |
-| 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Math/1512-number-of-good-pairs.md) | 1 | 1 ms, beats 84.6% | - | 29 Feb 2024 |
 | 1523 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Math/1523-count-odd-numbers-in-an-interval-range.md) | 1 | 0 ms, beats 100.0% | - | 7 Dec 2025 |
-| 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Math/1588-sum-of-all-odd-length-subarrays.md) | 3 | 0 ms, beats 100.0% | - | 7 Aug 2024 |
 | 1716 | [Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 1812 | [Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Math/1812-determine-color-of-a-chessboard-square.md) | 1 | 0 ms, beats 100.0% | - | 15 May 2024 |
 | 1822 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Math/1822-sign-of-the-product-of-an-array.md) | 1 | 0 ms, beats 100.0% | - | 3 Feb 2024 |
@@ -333,8 +333,8 @@ _Grouped by topic folder. Click a topic to expand it._
 | 1436 | [Destination City](https://leetcode.com/problems/destination-city/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Hash%20Table/1436-destination-city.md) | 1 | 2 ms, beats 99.8% | - | 8 Nov 2024 |
 | 1452 | [People Whose List of Favorite Companies Is Not a Subset of Another List](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Hash%20Table/1452-people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list.md) | 1 | 315 ms, beats 58.6% | - | 30 May 2026 |
 | 1460 | [Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Hash%20Table/1460-make-two-arrays-equal-by-reversing-subarrays.md) | 2 | 2 ms, beats 87.4% | - | 3 Aug 2024 |
-| 1624 | [Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 1636 | [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Hash%20Table/1636-sort-array-by-increasing-frequency.md) | 2 | 7 ms, beats 76.0% | - | 14 Sept 2024 |
+| 1624 | [Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Hash%20Table/1624-largest-substring-between-two-equal-characters.md) | 1 | 8 ms, beats 5.3% | - | 26 Jun 2024 |
+| 1636 | [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Hash%20Table/1636-sort-array-by-increasing-frequency.md) | 3 | 7 ms, beats 76.0% | - | 29 Aug 2024 |
 | 1796 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Hash%20Table/1796-second-largest-digit-in-a-string.md) | 1 | 1 ms, beats 98.7% | - | 27 Aug 2024 |
 | 1807 | [Evaluate the Bracket Pairs of a String](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Hash%20Table/1807-evaluate-the-bracket-pairs-of-a-string.md) | 1 | - | - | 26 Sept 2026 |
 | 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Hash%20Table/1832-check-if-the-sentence-is-pangram.md) | 2 | 0 ms, beats 100.0% | - | 30 Mar 2024 |
@@ -409,10 +409,10 @@ _Grouped by topic folder. Click a topic to expand it._
 | 1309 | [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/String/1309-decrypt-string-from-alphabet-to-integer-mapping.md) | 2 | 0 ms, beats 100.0% | - | 9 May 2024 |
 | 1374 | [Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 1422 | [Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/String/1422-maximum-score-after-splitting-a-string.md) | 1 | 8 ms, beats 12.3% | - | 14 Aug 2024 |
-| 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 1556 | [Thousand Separator](https://leetcode.com/problems/thousand-separator/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 1592 | [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/String/1528-shuffle-string.md) | 2 | 1 ms, beats 71.7% | - | 30 Mar 2024 |
+| 1556 | [Thousand Separator](https://leetcode.com/problems/thousand-separator/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/String/1556-thousand-separator.md) | 1 | 0 ms, beats 100.0% | - | 11 Aug 2024 |
+| 1592 | [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/String/1592-rearrange-spaces-between-words.md) | 1 | 2 ms, beats 88.6% | - | 12 Nov 2024 |
+| 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/String/1662-check-if-two-string-arrays-are-equivalent.md) | 1 | 0 ms, beats 100.0% | - | 15 Apr 2024 |
 | 1678 | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/String/1678-goal-parser-interpretation.md) | 1 | 0 ms, beats 100.0% | - | 15 Apr 2024 |
 | 1704 | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/String/1758-minimum-changes-to-make-alternating-binary-string.md) | 1 | 15 ms, beats 8.0% | - | 20 Mar 2026 |
@@ -689,8 +689,8 @@ _Grouped by topic folder. Click a topic to expand it._
 | 1437 | [Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Array/1437-check-if-all-1s-are-at-least-length-k-places-away.md) | 1 | 1 ms, beats 100.0% | - | 17 Nov 2025 |
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Array/1470-shuffle-the-array.md) | 1 | 0 ms, beats 100.0% | - | 3 Feb 2024 |
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Array/1480-running-sum-of-1d-array.md) | 1 | 0 ms, beats 100.0% | - | 1 Feb 2024 |
-| 1534 | [Count Good Triplets](https://leetcode.com/problems/count-good-triplets/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 1550 | [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1534 | [Count Good Triplets](https://leetcode.com/problems/count-good-triplets/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Array/1534-count-good-triplets.md) | 1 | 13 ms, beats 71.2% | - | 5 Oct 2024 |
+| 1550 | [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Array/1550-three-consecutive-odds.md) | 1 | 0 ms, beats 100.0% | - | 1 Jul 2024 |
 | 1725 | [Number Of Rectangles That Can Form The Largest Square](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Array/1725-number-of-rectangles-that-can-form-the-largest-square.md) | 1 | 3 ms, beats 27.5% | - | 11 Aug 2024 |
 | 1732 | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Array/1732-find-the-highest-altitude.md) | 1 | 0 ms, beats 100.0% | - | 2 Aug 2024 |
 | 1752 | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Array/1752-check-if-array-is-sorted-and-rotated.md) | 2 | 0 ms, beats 100.0% | - | 1 Feb 2024 |
@@ -755,7 +755,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Greedy/1323-maximum-69-number.md) | 1 | 0 ms, beats 100.0% | - | 26 Jan 2024 |
 | 1400 | [Construct K Palindrome Strings](https://leetcode.com/problems/construct-k-palindrome-strings/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Greedy/1400-construct-k-palindrome-strings.md) | 1 | 4 ms, beats 95.4% | - | 11 Jan 2025 |
 | 1414 | [Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Greedy/1414-find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k.md) | 1 | 3 ms, beats 23.8% | - | 13 Aug 2024 |
-| 1561 | [Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1561 | [Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Greedy/1561-maximum-number-of-coins-you-can-get.md) | 1 | 27 ms, beats 96.3% | - | 9 Aug 2024 |
 | 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Greedy/1689-partitioning-into-minimum-number-of-deci-binary-numbers.md) | 2 | 3 ms, beats 99.9% | - | 26 Apr 2024 |
 | 1710 | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 1827 | [Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Greedy/1827-minimum-operations-to-make-the-array-increasing.md) | 2 | 5 ms, beats 27.9% | - | 4 Oct 2024 |
@@ -877,7 +877,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Dynamic%20Programming/1025-divisor-game.md) | 2 | 0 ms, beats 100.0% | - | 3 Apr 2026 |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Dynamic%20Programming/1137-n-th-tribonacci-number.md) | 1 | 0 ms, beats 100.0% | - | 25 Apr 2024 |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Dynamic%20Programming/1143-longest-common-subsequence.md) | 2 | 21 ms, beats 62.1% | - | 29 Dec 2024 |
-| 1547 | [Minimum Cost to Cut a Stick](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/) | 🔴 | ⏳ not imported yet | - | - | - | - |
+| 1547 | [Minimum Cost to Cut a Stick](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/) | 🔴 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Dynamic%20Programming/1547-minimum-cost-to-cut-a-stick.md) | 1 | 12 ms, beats 98.8% | - | 6 Jan 2025 |
 | 3418 | [Maximum Amount of Money Robot Can Earn](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Dynamic%20Programming/3418-maximum-amount-of-money-robot-can-earn.md) | 1 | 103 ms, beats 52.3% | - | 12 Jan 2025 |
 | 3751 | [Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Dynamic%20Programming/3751-total-waviness-of-numbers-in-range-i.md) | 1 | 68 ms, beats 9.1% | - | 22 Nov 2025 |
 | 3954 | [Sum of Compatible Numbers in Range I](https://leetcode.com/problems/sum-of-compatible-numbers-in-range-i/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Dynamic%20Programming/3954-sum-of-compatible-numbers-in-range-i.md) | 1 | 1 ms, beats 100.0% | - | 11 Jun 2026 |
@@ -945,7 +945,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/1346-check-if-n-and-its-double-exist.md) | 1 | 2 ms, beats 97.0% | - | 1 Dec 2024 |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Binary%20Search/1351-count-negative-numbers-in-a-sorted-matrix.md) | 1 | 1 ms, beats 60.3% | - | 29 Dec 2025 |
 | 1385 | [Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/1385-find-the-distance-value-between-two-arrays.md) | 1 | - | - | 5 Nov 2026 |
-| 1608 | [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1608 | [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Binary%20Search/1608-special-array-with-x-elements-greater-than-or-equal-x.md) | 1 | 2 ms, beats 55.0% | - | 29 May 2024 |
 | 2089 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/2089-find-target-indices-after-sorting-array.md) | 1 | - | - | 19 Oct 2026 |
 | 2540 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/2540-minimum-common-value.md) | 2 | 2 ms, beats 93.7% | - | 10 Mar 2024 |
 | 2824 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/2824-count-pairs-whose-sum-is-less-than-target.md) | 1 | 2 ms, beats 98.2% | - | 8 Jun 2024 |
@@ -973,7 +973,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | 1381 | [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Stack/1381-design-a-stack-with-increment-operation.md) | 2 | 5 ms, beats 98.3% | - | 23 Aug 2024 |
 | 1441 | [Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Stack/1441-build-an-array-with-stack-operations.md) | 2 | 0 ms, beats 100.0% | - | 19 Aug 2024 |
 | 1475 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Stack/1475-final-prices-with-a-special-discount-in-a-shop.md) | 2 | 1 ms, beats 99.9% | - | 10 Aug 2024 |
-| 1544 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1544 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Stack/1544-make-the-string-great.md) | 1 | 3 ms, beats 61.3% | - | 25 Jun 2024 |
 | 1614 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Stack/1614-maximum-nesting-depth-of-the-parentheses.md) | 1 | - | - | 28 Sept 2026 |
 | 2390 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Stack/2390-removing-stars-from-a-string.md) | 2 | 36 ms, beats 59.4% | - | 14 Aug 2024 |
 | 2696 | [Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Stack/2696-minimum-string-length-after-removing-substrings.md) | 5 | 6 ms, beats 33.7% | - | 24 Jun 2024 |
@@ -1042,8 +1042,8 @@ _Grouped by topic folder. Click a topic to expand it._
 | 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Sorting/1051-height-checker.md) | 1 | 2 ms, beats 90.3% | - | 10 Jun 2024 |
 | 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Sorting/1200-minimum-absolute-difference.md) | 1 | 22 ms, beats 36.5% | - | 19 Mar 2026 |
-| 1619 | [Mean of Array After Removing Some Elements](https://leetcode.com/problems/mean-of-array-after-removing-some-elements/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 1637 | [Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1619 | [Mean of Array After Removing Some Elements](https://leetcode.com/problems/mean-of-array-after-removing-some-elements/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Sorting/1619-mean-of-array-after-removing-some-elements.md) | 1 | 3 ms, beats 99.4% | - | 6 Aug 2024 |
+| 1637 | [Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Sorting/1637-widest-vertical-area-between-two-points-containing-no-points.md) | 1 | 14 ms, beats 99.5% | - | 14 Jul 2024 |
 | 1913 | [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Sorting/1913-maximum-product-difference-between-two-pairs.md) | 2 | 3 ms, beats 72.9% | - | 14 Feb 2024 |
 | 2733 | [Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Sorting/2733-neither-minimum-nor-maximum.md) | 2 | 4 ms, beats 100.0% | - | 6 Aug 2024 |
 | 3010 | [Divide an Array Into Subarrays With Minimum Cost I](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Sorting/3010-divide-an-array-into-subarrays-with-minimum-cost-i.md) | 2 | 2 ms, beats 29.1% | - | 21 Mar 2024 |
@@ -1101,8 +1101,8 @@ _Grouped by topic folder. Click a topic to expand it._
 |---|---|---|---|---|---|---|---|
 | 1314 | [Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Matrix/1314-matrix-block-sum.md) | 1 | 261 ms, beats 17.3% | - | 5 Jun 2026 |
 | 1380 | [Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 1582 | [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Matrix/1572-matrix-diagonal-sum.md) | 2 | 0 ms, beats 100.0% | - | 2 Aug 2024 |
+| 1582 | [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Matrix/1582-special-positions-in-a-binary-matrix.md) | 1 | 3 ms, beats 30.9% | - | 26 Mar 2026 |
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Matrix/1886-determine-whether-matrix-can-be-obtained-by-rotation.md) | 1 | 0 ms, beats 100.0% | - | 23 Mar 2026 |
 | 2319 | [Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Matrix/2319-check-if-matrix-is-x-matrix.md) | 2 | 2 ms, beats 99.4% | - | 15 Aug 2024 |
