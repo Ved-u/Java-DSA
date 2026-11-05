@@ -25,3 +25,23 @@ class Solution {
     }
 }
 ```
+
+## Approach 2 — 2024-08-02 18:20 (java)
+
+*Runtime: 1 ms (faster than 99.9%) · Memory: 44.3 MB*
+
+```java
+class Solution {
+    public int[] smallerNumbersThanCurrent(int[] nums) {
+        int[] arr=new int[102];
+        for(int n:nums)
+            arr[n+1]++;
+        for(int i=1;i<102;i++)
+            arr[i]+=arr[i-1];
+        int[] res=new int[nums.length];
+        for(int i=0;i<nums.length;i++)
+            res[i]=arr[nums[i]];
+    return res;
+    }
+}
+```
