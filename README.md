@@ -15,7 +15,7 @@ Java DSA
 
 
 
-⏳ 298 solved problems still being imported from LeetCode.
+⏳ 296 solved problems still being imported from LeetCode.
 
 </div>
 
@@ -56,7 +56,7 @@ xychart-beta
     title "Problems solved (total)"
     x-axis ["Dec 25", "Jan 26", "Feb 26", "Mar 26", "Apr 26", "May 26", "Jun 26", "Jul 26", "Aug 26", "Sept 26", "Oct 26", "Nov 26"]
     y-axis "Solved" 0 --> 575
-    line [302, 307, 309, 337, 361, 387, 406, 425, 443, 469, 494, 497]
+    line [304, 309, 311, 339, 363, 389, 408, 427, 445, 471, 496, 499]
 ```
 
 <p align="right"><a href="#ls-top">↑ Back to top</a></p>
@@ -180,7 +180,7 @@ _Topic coverage: a problem counts toward every topic it's tagged with._
 
 | Language | Problems | |
 |---|---|---|
-| Java | 493 | `████████████████` |
+| Java | 495 | `████████████████` |
 | pythondata | 4 | `█░░░░░░░░░░░░░░░` |
 | Python | 1 | `█░░░░░░░░░░░░░░░` |
 
@@ -395,7 +395,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
 |---|---|---|---|---|---|---|---|
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/String/0008-string-to-integer-atoi.md) | 1 | 3 ms, beats 4.0% | - | 30 Jun 2026 |
-| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/String/0058-length-of-last-word.md) | 1 | 0 ms, beats 100.0% | - | 1 Apr 2024 |
 | 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 551 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
@@ -546,7 +546,7 @@ _Grouped by topic folder. Click a topic to expand it._
 |---|---|---|---|---|---|---|---|
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Simulation/0043-multiply-strings.md) | 1 | 10 ms, beats 5.2% | - | 9 Jun 2026 |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Simulation/0054-spiral-matrix.md) | 1 | 0 ms, beats 100.0% | - | 21 Mar 2024 |
-| 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Simulation/0059-spiral-matrix-ii.md) | 1 | 0 ms, beats 100.0% | - | 8 Aug 2024 |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 289 | [Game of Life](https://leetcode.com/problems/game-of-life/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Simulation/0289-game-of-life.md) | 2 | 0 ms, beats 100.0% | - | 7 Apr 2026 |
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Simulation/0412-fizz-buzz.md) | 1 | 1 ms, beats 99.9% | - | 10 Jun 2024 |
