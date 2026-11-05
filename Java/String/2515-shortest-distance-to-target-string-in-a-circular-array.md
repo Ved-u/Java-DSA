@@ -38,3 +38,25 @@ class Solution {
     }
 }
 ```
+
+## Approach 2 — 2026-04-15 10:12 (java)
+
+*Runtime: 1 ms (faster than 94.7%) · Memory: 47.1 MB*
+
+```java
+class Solution {
+    public int closestTarget(String[] words, String target, int startIndex) 
+    {
+        int n = words.length;
+        for (int step = 0; step < n; step++) {
+            int forward = (startIndex + step) % n;
+            int backward = (startIndex - step + n) % n;
+            if (words[forward].equals(target) || words[backward].equals
+            (target)) {
+                return step;
+            }
+        }
+        return -1;
+    }
+}
+```

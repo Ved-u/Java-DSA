@@ -48,3 +48,27 @@ class Solution {
     }
 }
 ```
+
+## Approach 3 — 2024-06-19 10:45 (java)
+
+*Runtime: 1547 ms (faster than 5.3%) · Memory: 44.9 MB*
+
+```java
+class Solution {
+    public String greatestLetter(String s) {
+        String ans="0";
+        for(char x:s.toCharArray()){
+            for(char y:s.toCharArray()){
+                if(Character.isUpperCase(x)&&Character.isLowerCase(y)){
+                    if((x-'A'==y-'a')&&ans.charAt(0)<x)
+                    ans=Character.toString(x);
+                }else if(Character.isUpperCase(y)&&Character.isLowerCase(x)){
+                    if((x-'A'==y-'a')&&ans.charAt(0)<y)
+                    ans=Character.toString(y);
+                }
+            }
+        }if(ans.charAt(0)=='0')return "";
+    return ans;    
+    }
+}
+```

@@ -50,3 +50,25 @@ class Solution {
     }
 }
 ```
+
+## Approach 3 — 2024-04-03 15:34 (java)
+
+*Runtime: 4 ms (faster than 6.9%) · Memory: 41.1 MB*
+
+```java
+class Solution {
+    public int countAsterisks(String s) {
+        int ans = 0;
+        int count = 0;
+        boolean insidePipe = false;
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '|') {
+                count++;
+                insidePipe = !insidePipe;
+            }else if (s.charAt(i) == '*' && !insidePipe)   ans++;
+           // else if (s.charAt(i); == '*' && count % 2 == 0) ans++;
+        }
+        return ans;
+    }
+}
+```

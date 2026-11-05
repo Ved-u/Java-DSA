@@ -24,3 +24,27 @@ class Solution {
     }
 }
 ```
+
+## Approach 2 — 2024-07-06 10:02 (java)
+
+*Runtime: 1 ms (faster than 100.0%) · Memory: 44.3 MB*
+
+```java
+class Solution {
+    public int sumIndicesWithKSetBits(List<Integer> nums, int k) {
+        int sum = 0;
+        for (int i = 0; i < nums.size(); i++) 
+            if (countSetBits(i) == k) 
+                sum += nums.get(i); 
+    return sum;
+    }
+    private int countSetBits(int n) {
+        int count = 0;
+        while (n > 0) {
+            count += (n & 1);
+            n >>= 1;
+        }
+    return count;
+    }
+}
+```
