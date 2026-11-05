@@ -15,7 +15,7 @@ Java DSA
 
 
 
-⏳ 566 solved problems still being imported from LeetCode.
+⏳ 560 solved problems still being imported from LeetCode.
 
 </div>
 
@@ -55,8 +55,8 @@ Java DSA
 xychart-beta
     title "Problems solved (total)"
     x-axis ["Dec 25", "Jan 26", "Feb 26", "Mar 26", "Apr 26", "May 26", "Jun 26", "Jul 26", "Aug 26", "Sept 26", "Oct 26", "Nov 26"]
-    y-axis "Solved" 0 --> 265
-    line [150, 150, 150, 158, 168, 176, 186, 190, 198, 213, 228, 229]
+    y-axis "Solved" 0 --> 275
+    line [150, 150, 150, 158, 168, 176, 186, 190, 200, 218, 234, 235]
 ```
 
 <p align="right"><a href="#ls-top">↑ Back to top</a></p>
@@ -180,7 +180,7 @@ _Topic coverage: a problem counts toward every topic it's tagged with._
 
 | Language | Problems | |
 |---|---|---|
-| Java | 229 | `████████████████` |
+| Java | 235 | `████████████████` |
 | Python | 1 | `█░░░░░░░░░░░░░░░` |
 
 <p align="right"><a href="#ls-top">↑ Back to top</a></p>
@@ -268,10 +268,10 @@ _Grouped by topic folder. Click a topic to expand it._
 | 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 3516 | [Find Closest Person](https://leetcode.com/problems/find-closest-person/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 3536 | [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 3550 | [Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3550 | [Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/3550-smallest-index-with-digit-sum-equal-to-index.md) | 1 | - | - | 24 Sept 2026 |
 | 3591 | [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 3602 | [Hexadecimal and Hexatrigesimal Conversion](https://leetcode.com/problems/hexadecimal-and-hexatrigesimal-conversion/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 3622 | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3622 | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/3622-check-divisibility-by-digit-sum-and-product.md) | 1 | - | - | 22 Aug 2026 |
 | 3658 | [GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 3663 | [Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 3697 | [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/) | 🟢 | ⏳ not imported yet | - | - | - | - |
@@ -366,7 +366,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | 3184 | [Count Pairs That Form a Complete Day I](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 3223 | [Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 3238 | [Find the Number of Winning Players](https://leetcode.com/problems/find-the-number-of-winning-players/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 3471 | [Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3471 | [Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Hash%20Table/3471-find-the-largest-almost-missing-integer.md) | 1 | - | - | 18 Aug 2026 |
 | 3541 | [Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 3606 | [Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 3668 | [Restore Finishing Order](https://leetcode.com/problems/restore-finishing-order/) | 🟢 | ⏳ not imported yet | - | - | - | - |
@@ -592,7 +592,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | 3379 | [Transformed Array](https://leetcode.com/problems/transformed-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 3417 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 3461 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 3498 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3498 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Simulation/3498-reverse-degree-of-a-string.md) | 1 | - | - | 20 Sept 2026 |
 | 3612 | [Process String with Special Operations I](https://leetcode.com/problems/process-string-with-special-operations-i/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 3701 | [Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 3726 | [Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation/) | 🟢 | ⏳ not imported yet | - | - | - | - |
@@ -712,7 +712,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | 3349 | [Adjacent Increasing Subarrays Detection I](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 3423 | [Maximum Difference Between Adjacent Elements in a Circular Array](https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 3427 | [Sum of Variable Length Subarrays](https://leetcode.com/problems/sum-of-variable-length-subarrays/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 3502 | [Minimum Cost to Reach Every Position](https://leetcode.com/problems/minimum-cost-to-reach-every-position/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3502 | [Minimum Cost to Reach Every Position](https://leetcode.com/problems/minimum-cost-to-reach-every-position/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Array/3502-minimum-cost-to-reach-every-position.md) | 1 | - | - | 2 Oct 2026 |
 | 3683 | [Earliest Time to Finish One Task](https://leetcode.com/problems/earliest-time-to-finish-one-task/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 3809 | [Best Reachable Tower](https://leetcode.com/problems/best-reachable-tower/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 3818 | [Minimum Prefix Removal to Make Array Strictly Increasing](https://leetcode.com/problems/minimum-prefix-removal-to-make-array-strictly-increasing/) | 🟡 | ⏳ not imported yet | - | - | - | - |
@@ -1168,7 +1168,7 @@ _Grouped by topic folder. Click a topic to expand it._
 |---|---|---|---|---|---|---|---|
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Recursion/0050-powx-n.md) | 2 | 0 ms, beats 100.0% | - | 10 Oct 2024 |
 | 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Recursion/0326-power-of-three.md) | 1 | 107 ms, beats 5.0% | - | 27 Nov 2025 |
-| 3483 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3483 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Recursion/3483-unique-3-digit-even-numbers.md) | 1 | - | - | 11 Sept 2026 |
 
 </details>
 
