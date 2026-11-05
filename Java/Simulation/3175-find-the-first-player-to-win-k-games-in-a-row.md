@@ -24,3 +24,26 @@ class Solution {
     }
 }
 ```
+
+## Approach 2 — 2024-10-15 20:54 (java)
+
+*Runtime: 1 ms (faster than 100.0%) · Memory: 60.6 MB*
+
+```java
+class Solution {
+    public int findWinningPlayer(int[] skills, int k) {
+        int n = skills.length;
+        int idx = 0, c = 0;
+        for (int i = 1; i < n; i++) {
+            if (skills[idx] < skills[i]) {
+                idx = i;
+                c = 1;
+            } else
+                c++;
+            if (c == k)
+                return idx;
+        }
+        return idx;
+    }
+}
+```

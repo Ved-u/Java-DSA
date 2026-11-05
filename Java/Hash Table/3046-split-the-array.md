@@ -20,3 +20,20 @@ class Solution {
     }
 }
 ```
+
+## Approach 2 — 2024-02-26 23:40 (java)
+
+*Runtime: 1 ms (faster than 98.6%) · Memory: 42.5 MB*
+
+```java
+class Solution {
+    public boolean isPossibleToSplit(int[] nums) {
+        int[] freq = new int[101];
+        for (int num: nums) {
+            freq[num]++;
+            if (freq[num] > 2) return false;
+        }
+        return true;
+    }
+}
+```

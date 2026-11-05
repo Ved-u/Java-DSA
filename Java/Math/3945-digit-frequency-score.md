@@ -34,3 +34,24 @@ class Solution {
         }
     }
 ```
+
+## Approach 2 — 2026-05-31 08:03 (java)
+
+*Runtime: 2 ms (faster than 35.2%) · Memory: 42.8 MB*
+
+```java
+class Solution {
+    public int digitFrequencyScore(int n) {
+        int freq[]=new int[10];
+        String x=""+n;
+        for(int i=0;i<x.length();i++){
+            freq[x.charAt(i)-'0']++;
+        }
+        int ans=0;
+        for(int i=0;i<freq.length;i++){
+            ans+=i*freq[i];
+        }
+        return ans;
+    }
+}
+```

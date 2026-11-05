@@ -34,3 +34,32 @@ class Solution {
     }
 }
 ```
+
+## Approach 2 — 2024-03-04 22:04 (java)
+
+*Runtime: 2 ms (faster than 47.5%) · Memory: 44.8 MB*
+
+```java
+class Solution {
+    public int[] resultArray(int[] nums) {
+        int nl = nums.length;
+        ArrayList<Integer> arr1 = new ArrayList<Integer>();
+        ArrayList<Integer> arr2 = new ArrayList<Integer>();
+        arr1.add(nums[0]);
+        arr2.add(nums[1]);
+        for(int i=2; i<nl; i++){
+            if(arr1.get(arr1.size() -1) > arr2.get(arr2.size() -1)){
+                arr1.add(nums[i]);
+            }else{
+                arr2.add(nums[i]);
+            }
+        }
+        arr1.addAll(arr2);
+        int arr[] = new int[nl];
+        for(int i=0; i<nl; i++){
+            arr[i] = arr1.get(i);
+        }
+        return arr;
+    }
+}
+```
