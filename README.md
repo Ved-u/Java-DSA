@@ -13,7 +13,7 @@ Java DSA
 
 <img alt="Ved-u's LeetCode stats" src=".leetstash/card.svg" width="100%">
 
-🎯 **Goal:** 795 / 1000 problems (80%).
+🎯 **Goal:** 795 / 1000 problems (80%) by 1 Jan 2027. About 26 problems a week gets you there.
 
 ⏳ 195 solved problems still being imported from LeetCode.
 
