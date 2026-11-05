@@ -15,7 +15,7 @@ Java DSA
 
 
 
-⏳ 287 solved problems still being imported from LeetCode.
+⏳ 261 solved problems still being imported from LeetCode.
 
 </div>
 
@@ -55,8 +55,8 @@ Java DSA
 xychart-beta
     title "Problems solved (total)"
     x-axis ["Dec 25", "Jan 26", "Feb 26", "Mar 26", "Apr 26", "May 26", "Jun 26", "Jul 26", "Aug 26", "Sept 26", "Oct 26", "Nov 26"]
-    y-axis "Solved" 0 --> 585
-    line [312, 317, 319, 347, 372, 398, 417, 436, 454, 480, 505, 508]
+    y-axis "Solved" 0 --> 615
+    line [333, 338, 340, 370, 396, 423, 442, 462, 480, 506, 531, 534]
 ```
 
 <p align="right"><a href="#ls-top">↑ Back to top</a></p>
@@ -180,7 +180,7 @@ _Topic coverage: a problem counts toward every topic it's tagged with._
 
 | Language | Problems | |
 |---|---|---|
-| Java | 504 | `████████████████` |
+| Java | 530 | `████████████████` |
 | pythondata | 4 | `█░░░░░░░░░░░░░░░` |
 | Python | 1 | `█░░░░░░░░░░░░░░░` |
 
@@ -205,10 +205,10 @@ _Grouped by topic folder. Click a topic to expand it._
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/0013-roman-to-integer.md) | 1 | 6 ms, beats 29.0% | - | 9 Nov 2024 |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/0048-rotate-image.md) | 1 | 0 ms, beats 100.0% | - | 16 Jun 2024 |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/0066-plus-one.md) | 3 | 0 ms, beats 100.0% | - | 6 Mar 2024 |
-| 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | 🟡 | ⏳ not imported yet | - | - | - | - |
-| 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/0168-excel-sheet-column-title.md) | 1 | 0 ms, beats 100.0% | - | 19 Sept 2024 |
+| 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/0171-excel-sheet-column-number.md) | 5 | 1 ms, beats 92.4% | - | 8 Aug 2024 |
+| 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/0172-factorial-trailing-zeroes.md) | 1 | 0 ms, beats 100.0% | - | 7 Aug 2024 |
+| 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/0204-count-primes.md) | 1 | 128 ms, beats 68.7% | - | 16 Dec 2024 |
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/0292-nim-game.md) | 1 | 0 ms, beats 100.0% | - | 31 Mar 2026 |
 | 319 | [Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/0319-bulb-switcher.md) | 2 | 0 ms, beats 100.0% | - | 4 Sept 2024 |
@@ -306,8 +306,8 @@ _Grouped by topic folder. Click a topic to expand it._
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Hash%20Table/0036-valid-sudoku.md) | 1 | 1 ms, beats 100.0% | - | 21 Nov 2024 |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Hash%20Table/0073-set-matrix-zeroes.md) | 1 | 3 ms, beats 17.4% | - | 27 Apr 2026 |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 | ⏳ not imported yet | - | - | - | - |
-| 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Hash%20Table/0205-isomorphic-strings.md) | 5 | 6 ms, beats 86.2% | - | 2 Apr 2024 |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Hash%20Table/0217-contains-duplicate.md) | 1 | 14 ms, beats 91.7% | - | 10 Dec 2025 |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Hash%20Table/0242-valid-anagram.md) | 4 | 15 ms, beats 25.6% | - | 14 Nov 2024 |
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Hash%20Table/0290-word-pattern.md) | 1 | 1 ms, beats 86.5% | - | 1 Apr 2026 |
 | 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Hash%20Table/0383-ransom-note.md) | 1 | 20 ms, beats 7.4% | - | 11 Dec 2025 |
@@ -486,10 +486,10 @@ _Grouped by topic folder. Click a topic to expand it._
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 | ⏳ not imported yet | - | - | - | - |
-| 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | 🟡 | ⏳ not imported yet | - | - | - | - |
-| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 | ⏳ not imported yet | - | - | - | - |
-| 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Two%20Pointers/0160-intersection-of-two-linked-lists.md) | 1 | 1 ms, beats 100.0% | - | 23 Jul 2024 |
+| 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Two%20Pointers/0165-compare-version-numbers.md) | 1 | 1 ms, beats 76.8% | - | 14 May 2024 |
+| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Two%20Pointers/0189-rotate-array.md) | 4 | 0 ms, beats 100.0% | - | 8 Apr 2024 |
+| 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Two%20Pointers/0202-happy-number.md) | 2 | 0 ms, beats 100.0% | - | 5 Aug 2024 |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Two%20Pointers/0234-palindrome-linked-list.md) | 1 | 3 ms, beats 99.8% | - | 28 Jul 2024 |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Two%20Pointers/0283-move-zeroes.md) | 3 | 1 ms, beats 99.9% | - | 7 Mar 2024 |
 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Two%20Pointers/0344-reverse-string.md) | 6 | 0 ms, beats 100.0% | - | 30 Mar 2024 |
@@ -629,10 +629,10 @@ _Grouped by topic folder. Click a topic to expand it._
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | 🟡 | ⏳ not imported yet | - | - | - | - |
-| 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 | ⏳ not imported yet | - | - | - | - |
-| 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | 🟡 | ⏳ not imported yet | - | - | - | - |
-| 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Tree/0173-binary-search-tree-iterator.md) | 2 | 16 ms, beats 99.5% | - | 1 Dec 2024 |
+| 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Tree/0199-binary-tree-right-side-view.md) | 2 | 0 ms, beats 100.0% | - | 28 Nov 2024 |
+| 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Tree/0222-count-complete-tree-nodes.md) | 2 | 0 ms, beats 100.0% | - | 29 Apr 2026 |
+| 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Tree/0226-invert-binary-tree.md) | 1 | 0 ms, beats 100.0% | - | 28 Nov 2024 |
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 🟡 | ⏳ not imported yet | - | - | - | - |
@@ -797,7 +797,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Bit%20Manipulation/0067-add-binary.md) | 1 | 5 ms, beats 9.5% | - | 23 Sept 2024 |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
-| 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Bit%20Manipulation/0201-bitwise-and-of-numbers-range.md) | 1 | 4 ms, beats 44.4% | - | 21 Feb 2024 |
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Bit%20Manipulation/0268-missing-number.md) | 1 | 0 ms, beats 100.0% | - | 20 Feb 2024 |
@@ -893,8 +893,8 @@ _Grouped by topic folder. Click a topic to expand it._
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | 🟡 | ⏳ not imported yet | - | - | - | - |
-| 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Linked%20List/0203-remove-linked-list-elements.md) | 1 | 1 ms, beats 97.2% | - | 5 Aug 2024 |
+| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Linked%20List/0206-reverse-linked-list.md) | 5 | 0 ms, beats 100.0% | - | 26 Jul 2024 |
 | 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Linked%20List/0328-odd-even-linked-list.md) | 2 | 0 ms, beats 100.0% | - | 28 Jul 2024 |
 | 430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Linked%20List/0430-flatten-a-multilevel-doubly-linked-list.md) | 2 | 0 ms, beats 100.0% | - | 3 Aug 2024 |
@@ -927,9 +927,9 @@ _Grouped by topic folder. Click a topic to expand it._
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/0035-search-insert-position.md) | 1 | 0 ms, beats 100.0% | - | 4 Mar 2024 |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/0069-sqrtx.md) | 2 | 1 ms, beats 100.0% | - | 30 Aug 2024 |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/0074-search-a-2d-matrix.md) | 1 | 0 ms, beats 100.0% | - | 29 Jun 2024 |
-| 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/0153-find-minimum-in-rotated-sorted-array.md) | 1 | 0 ms, beats 100.0% | - | 15 May 2026 |
 | 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | 🔴 | ⏳ not imported yet | - | - | - | - |
-| 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/0162-find-peak-element.md) | 1 | 0 ms, beats 100.0% | - | 29 Jun 2024 |
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/0278-first-bad-version.md) | 1 | 24 ms, beats 5.1% | - | 4 Mar 2024 |
 | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/0349-intersection-of-two-arrays.md) | 1 | 7 ms, beats 14.3% | - | 10 Mar 2024 |
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/0350-intersection-of-two-arrays-ii.md) | 1 | 2 ms, beats 95.2% | - | 2 Jul 2024 |
@@ -958,7 +958,7 @@ _Grouped by topic folder. Click a topic to expand it._
 |---|---|---|---|---|---|---|---|
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Stack/0020-valid-parentheses.md) | 3 | 1 ms, beats 99.9% | - | 23 Aug 2024 |
 | 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | 🔴 | ⏳ not imported yet | - | - | - | - |
-| 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Stack/0155-min-stack.md) | 5 | 4 ms, beats 100.0% | - | 26 Aug 2024 |
 | 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
@@ -988,7 +988,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
 |---|---|---|---|---|---|---|---|
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Sliding%20Window/0003-longest-substring-without-repeating-characters.md) | 1 | 5 ms, beats 98.2% | - | 14 Jun 2025 |
-| 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Sliding%20Window/0219-contains-duplicate-ii.md) | 1 | 37 ms, beats 9.1% | - | 1 Jul 2026 |
 | 1343 | [Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Sliding%20Window/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold.md) | 2 | 2 ms, beats 99.9% | - | 13 Aug 2024 |
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 1652 | [Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/) | 🟢 | ⏳ not imported yet | - | - | - | - |
@@ -1016,10 +1016,10 @@ _Grouped by topic folder. Click a topic to expand it._
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 148 | [Sort List](https://leetcode.com/problems/sort-list/) | 🟡 | ⏳ not imported yet | - | - | - | - |
-| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Divide%20and%20Conquer/0169-majority-element.md) | 8 | 1 ms, beats 99.9% | - | 29 Feb 2024 |
+| 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Divide%20and%20Conquer/0190-reverse-bits.md) | 1 | 5 ms, beats 5.4% | - | 21 Mar 2026 |
+| 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Divide%20and%20Conquer/0191-number-of-1-bits.md) | 1 | 1 ms, beats 50.9% | - | 25 Mar 2026 |
+| 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Divide%20and%20Conquer/0215-kth-largest-element-in-an-array.md) | 1 | 63 ms, beats 63.7% | - | 1 Jan 2025 |
 | 240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Divide%20and%20Conquer/0240-search-a-2d-matrix-ii.md) | 1 | - | - | 22 Oct 2026 |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Divide%20and%20Conquer/0347-top-k-frequent-elements.md) | 1 | 25 ms, beats 6.4% | - | 17 Aug 2024 |
 | 654 | [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Divide%20and%20Conquer/0654-maximum-binary-tree.md) | 1 | - | - | 19 Sept 2026 |
@@ -1035,7 +1035,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
 |---|---|---|---|---|---|---|---|
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Sorting/0056-merge-intervals.md) | 1 | 9 ms, beats 37.4% | - | 11 Mar 2024 |
-| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Sorting/0164-maximum-gap.md) | 4 | 7 ms, beats 100.0% | - | 8 Aug 2024 |
 | 414 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Sorting/0414-third-maximum-number.md) | 2 | 4 ms, beats 45.4% | - | 21 Sept 2024 |
 | 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Sorting/1051-height-checker.md) | 1 | 2 ms, beats 90.3% | - | 10 Jun 2024 |
