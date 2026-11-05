@@ -15,7 +15,7 @@ Java DSA
 
 
 
-⏳ 617 solved problems still being imported from LeetCode.
+⏳ 615 solved problems still being imported from LeetCode.
 
 </div>
 
@@ -35,6 +35,7 @@ Java DSA
 |---|---|---|---|
 | 5 Nov 2026 | [Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/1385-find-the-distance-value-between-two-arrays.md) |
 | 29 Oct 2026 | [Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/1360-number-of-days-between-two-dates.md) |
+| 24 Oct 2026 | [Count Days Spent Together](https://leetcode.com/problems/count-days-spent-together/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/2409-count-days-spent-together.md) |
 | 22 Oct 2026 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | 🟡 Medium | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Divide%20and%20Conquer/0240-search-a-2d-matrix-ii.md) |
 | 22 Oct 2026 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Tree/0617-merge-two-binary-trees.md) |
 | 19 Oct 2026 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/2089-find-target-indices-after-sorting-array.md) |
@@ -42,7 +43,6 @@ Java DSA
 | 11 Oct 2026 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | 🟡 Medium | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Linked%20List/0622-design-circular-queue.md) |
 | 8 Oct 2026 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Stack/1021-remove-outermost-parentheses.md) |
 | 7 Oct 2026 | [Design Linked List](https://leetcode.com/problems/design-linked-list/) | 🟡 Medium | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Linked%20List/0707-design-linked-list.md) |
-| 6 Oct 2026 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 Medium | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Greedy/0921-minimum-add-to-make-parentheses-valid.md) |
 
 <p align="right"><a href="#ls-top">↑ Back to top</a></p>
 
@@ -55,8 +55,8 @@ Java DSA
 xychart-beta
     title "Problems solved (total)"
     x-axis ["Dec 25", "Jan 26", "Feb 26", "Mar 26", "Apr 26", "May 26", "Jun 26", "Jul 26", "Aug 26", "Sept 26", "Oct 26", "Nov 26"]
-    y-axis "Solved" 0 --> 205
-    line [115, 115, 115, 122, 132, 137, 146, 150, 154, 167, 177, 178]
+    y-axis "Solved" 0 --> 210
+    line [115, 115, 115, 122, 132, 137, 146, 150, 154, 168, 179, 180]
 ```
 
 <p align="right"><a href="#ls-top">↑ Back to top</a></p>
@@ -180,7 +180,7 @@ _Topic coverage: a problem counts toward every topic it's tagged with._
 
 | Language | Problems | |
 |---|---|---|
-| Java | 178 | `████████████████` |
+| Java | 180 | `████████████████` |
 | Python | 1 | `█░░░░░░░░░░░░░░░` |
 
 <p align="right"><a href="#ls-top">↑ Back to top</a></p>
@@ -239,7 +239,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | 2119 | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 2125 | [Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 2409 | [Count Days Spent Together](https://leetcode.com/problems/count-days-spent-together/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2409 | [Count Days Spent Together](https://leetcode.com/problems/count-days-spent-together/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/2409-count-days-spent-together.md) | 2 | - | - | 24 Oct 2026 |
 | 2413 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 2427 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 | ⏳ not imported yet | - | - | - | - |
@@ -663,7 +663,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | 1305 | [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Tree/1305-all-elements-in-two-binary-search-trees.md) | 3 | 19 ms, beats 24.8% | - | 1 Dec 2024 |
 | 1367 | [Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 2265 | [Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Tree/2265-count-nodes-equal-to-average-of-subtree.md) | 1 | - | - | 10 Sept 2026 |
-| 2331 | [Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2331 | [Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Tree/2331-evaluate-boolean-binary-tree.md) | 1 | - | - | 23 Sept 2026 |
 | 2385 | [Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 3997 | [Count Dominant Nodes in a Binary Tree](https://leetcode.com/problems/count-dominant-nodes-in-a-binary-tree/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 4015 | [Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/) | 🟡 | ⏳ not imported yet | - | - | - | - |
