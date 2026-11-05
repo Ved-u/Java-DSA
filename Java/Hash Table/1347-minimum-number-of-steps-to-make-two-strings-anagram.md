@@ -29,3 +29,57 @@ class Solution {
     }
 }
 ```
+
+## Approach 2 — 2024-04-16 07:56 (java)
+
+*Runtime: 6 ms (faster than 99.8%) · Memory: 45.4 MB*
+
+```java
+class Solution {
+    public int minSteps(String s, String t) {
+        int a[]=new int[26];
+        int b[]=new int[26];
+        for(char c:s.toCharArray())
+        {
+            a[c-'a']++;
+        }
+        for(char c:t.toCharArray())
+        {
+            b[c-'a']++;
+        }
+        int ans=0;
+        for(int i=0;i<26;i++)
+        {
+            if(a[i]>b[i])
+            {
+                ans+=a[i]-b[i];
+            }
+        }
+        return ans;
+    }
+}
+```
+
+## Approach 3 — 2024-04-16 07:57 (java)
+
+*Runtime: 5 ms (faster than 99.8%) · Memory: 45.1 MB*
+
+```java
+class Solution {
+    public int minSteps(String s, String t) {
+        int a[]=new int[26];
+        int b[]=new int[26];
+        for(char c:s.toCharArray()){
+            a[c-'a']++;
+        }
+        for(char c:t.toCharArray()){
+            b[c-'a']++;
+        }
+        int ans=0;
+        for(int i=0;i<26;i++){
+            if(a[i]>b[i]) ans+=a[i]-b[i];
+        }
+        return ans;
+    }
+}
+```

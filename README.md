@@ -15,7 +15,7 @@ Java DSA
 
 
 
-⏳ 230 solved problems still being imported from LeetCode.
+⏳ 229 solved problems still being imported from LeetCode.
 
 </div>
 
@@ -55,8 +55,8 @@ Java DSA
 xychart-beta
     title "Problems solved (total)"
     x-axis ["Dec 25", "Jan 26", "Feb 26", "Mar 26", "Apr 26", "May 26", "Jun 26", "Jul 26", "Aug 26", "Sept 26", "Oct 26", "Nov 26"]
-    y-axis "Solved" 0 --> 650
-    line [357, 363, 365, 396, 424, 451, 472, 494, 512, 538, 562, 565]
+    y-axis "Solved" 0 --> 655
+    line [358, 364, 366, 397, 425, 452, 473, 495, 513, 539, 563, 566]
 ```
 
 <p align="right"><a href="#ls-top">↑ Back to top</a></p>
@@ -180,7 +180,7 @@ _Topic coverage: a problem counts toward every topic it's tagged with._
 
 | Language | Problems | |
 |---|---|---|
-| Java | 561 | `████████████████` |
+| Java | 562 | `████████████████` |
 | pythondata | 4 | `█░░░░░░░░░░░░░░░` |
 | Python | 1 | `█░░░░░░░░░░░░░░░` |
 
@@ -326,7 +326,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | 1160 | [Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Hash%20Table/1160-find-words-that-can-be-formed-by-characters.md) | 2 | 5 ms, beats 93.0% | - | 28 Jun 2024 |
 | 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Hash%20Table/1189-maximum-number-of-balloons.md) | 1 | 3 ms, beats 73.6% | - | 22 Jun 2026 |
 | 1331 | [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Hash%20Table/1331-rank-transform-of-an-array.md) | 1 | 32 ms, beats 52.4% | - | 12 Jul 2026 |
-| 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Hash%20Table/1347-minimum-number-of-steps-to-make-two-strings-anagram.md) | 1 | 7 ms, beats 89.0% | - | 16 Apr 2024 |
+| 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Hash%20Table/1347-minimum-number-of-steps-to-make-two-strings-anagram.md) | 3 | 5 ms, beats 99.8% | - | 16 Apr 2024 |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 1436 | [Destination City](https://leetcode.com/problems/destination-city/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 1452 | [People Whose List of Favorite Companies Is Not a Subset of Another List](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/) | 🟡 | ⏳ not imported yet | - | - | - | - |
@@ -941,7 +941,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 1095 | [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/) | 🔴 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/1095-find-in-mountain-array.md) | 1 | 0 ms, beats 100.0% | - | 12 Oct 2023 |
 | 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/1346-check-if-n-and-its-double-exist.md) | 1 | 2 ms, beats 97.0% | - | 1 Dec 2024 |
-| 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Leetcode/Java/Binary%20Search/1351-count-negative-numbers-in-a-sorted-matrix.md) | 1 | 1 ms, beats 60.3% | - | 29 Dec 2025 |
 | 1385 | [Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/1385-find-the-distance-value-between-two-arrays.md) | 1 | - | - | 5 Nov 2026 |
 | 1608 | [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 2089 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/2089-find-target-indices-after-sorting-array.md) | 1 | - | - | 19 Oct 2026 |
