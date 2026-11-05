@@ -9,15 +9,57 @@ Java DSA
 
 <a href="https://leetcode.com/u/VedantUtpat/"><img alt="LeetCode profile" src="https://img.shields.io/badge/LeetCode-VedantUtpat-ffa116?style=for-the-badge&logo=leetcode&logoColor=white"></a> <img alt="Solved" src="https://img.shields.io/badge/Solved-795-2ea043?style=for-the-badge">
 
-<b><a href="#ls-skills">Skills</a> &nbsp;·&nbsp; <a href="#ls-problems">All problems</a></b>
+<b><a href="#ls-activity">Activity</a> &nbsp;·&nbsp; <a href="#ls-recent">Recent</a> &nbsp;·&nbsp; <a href="#ls-progress">Progress</a> &nbsp;·&nbsp; <a href="#ls-skills">Skills</a> &nbsp;·&nbsp; <a href="#ls-languages">Languages</a> &nbsp;·&nbsp; <a href="#ls-problems">All problems</a></b>
 
 <img alt="Ved-u's LeetCode stats" src=".leetstash/card.svg" width="100%">
 
 
 
-⏳ 795 solved problems still being imported from LeetCode.
+⏳ 757 solved problems still being imported from LeetCode.
 
 </div>
+
+<a id="ls-activity"></a>
+
+## 🔥 Activity
+
+<p align="center"><img alt="Ved-u's LeetCode activity heatmap" src=".leetstash/heatmap.svg" width="100%"></p>
+
+<p align="right"><a href="#ls-top">↑ Back to top</a></p>
+
+<a id="ls-recent"></a>
+
+## 🕒 Recent activity
+
+| Date | Problem | Difficulty | Solution |
+|---|---|---|---|
+| 8 Aug 2026 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | 🟡 Medium | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Linked%20List/0002-add-two-numbers.md) |
+| 14 Jul 2026 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/0009-palindrome-number.md) |
+| 30 Jun 2026 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | 🟡 Medium | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/String/0008-string-to-integer-atoi.md) |
+| 9 Jun 2026 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | 🟡 Medium | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Simulation/0043-multiply-strings.md) |
+| 8 Jun 2026 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 Medium | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Bit%20Manipulation/0029-divide-two-integers.md) |
+| 7 Jun 2026 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 🟡 Medium | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Two%20Pointers/0019-remove-nth-node-from-end-of-list.md) |
+| 1 May 2026 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Trie/0014-longest-common-prefix.md) |
+| 1 May 2026 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Stack/0020-valid-parentheses.md) |
+| 30 Apr 2026 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | 🟡 Medium | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Dynamic%20Programming/0053-maximum-subarray.md) |
+| 24 Apr 2026 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | 🟡 Medium | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Linked%20List/0024-swap-nodes-in-pairs.md) |
+
+<p align="right"><a href="#ls-top">↑ Back to top</a></p>
+
+<a id="ls-progress"></a>
+
+## 📈 Progress over time
+
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#ffa116"}}}}%%
+xychart-beta
+    title "Problems solved (total)"
+    x-axis ["Dec 25", "Jan 26", "Feb 26", "Mar 26", "Apr 26", "May 26", "Jun 26", "Jul 26", "Aug 26", "Sept 26", "Oct 26", "Nov 26"]
+    y-axis "Solved" 0 --> 45
+    line [32, 32, 32, 32, 35, 35, 38, 38, 38, 38, 38, 38]
+```
+
+<p align="right"><a href="#ls-top">↑ Back to top</a></p>
 
 <a id="ls-skills"></a>
 
@@ -132,6 +174,17 @@ _Topic coverage: a problem counts toward every topic it's tagged with._
 
 <p align="right"><a href="#ls-top">↑ Back to top</a></p>
 
+<a id="ls-languages"></a>
+
+## 💻 Languages
+
+| Language | Problems | |
+|---|---|---|
+| Java | 38 | `████████████████` |
+| Python | 1 | `█░░░░░░░░░░░░░░░` |
+
+<p align="right"><a href="#ls-top">↑ Back to top</a></p>
+
 <a id="ls-problems"></a>
 
 ## 📚 All problems
@@ -145,11 +198,11 @@ _Grouped by topic folder. Click a topic to expand it._
 
 | # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
 |---|---|---|---|---|---|---|---|
-| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 | ⏳ not imported yet | - | - | - | - |
-| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | 🟡 | ⏳ not imported yet | - | - | - | - |
-| 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/0007-reverse-integer.md) | 1 | 1 ms, beats 100.0% | - | 20 Feb 2024 |
+| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/0009-palindrome-number.md) | 3 | 4 ms, beats 100.0% | - | 28 Jan 2024 |
+| 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/0012-integer-to-roman.md) | 2 | 3 ms, beats 99.9% | - | 5 Mar 2024 |
+| 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/0013-roman-to-integer.md) | 1 | 6 ms, beats 29.0% | - | 9 Nov 2024 |
+| 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/0048-rotate-image.md) | 1 | 0 ms, beats 100.0% | - | 16 Jun 2024 |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
@@ -248,8 +301,8 @@ _Grouped by topic folder. Click a topic to expand it._
 
 | # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
 |---|---|---|---|---|---|---|---|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Hash%20Table/0001-two-sum.md) | 6 | 0 ms, beats 100.0% | - | 28 Jan 2024 |
+| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Hash%20Table/0036-valid-sudoku.md) | 1 | 1 ms, beats 100.0% | - | 21 Nov 2024 |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | 🟢 | ⏳ not imported yet | - | - | - | - |
@@ -340,7 +393,7 @@ _Grouped by topic folder. Click a topic to expand it._
 
 | # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
 |---|---|---|---|---|---|---|---|
-| 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/String/0008-string-to-integer-atoi.md) | 1 | 3 ms, beats 4.0% | - | 30 Jun 2026 |
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | 🟢 | ⏳ not imported yet | - | - | - | - |
@@ -416,12 +469,12 @@ _Grouped by topic folder. Click a topic to expand it._
 
 | # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
 |---|---|---|---|---|---|---|---|
-| 15 | [3Sum](https://leetcode.com/problems/3sum/) | 🟡 | ⏳ not imported yet | - | - | - | - |
-| 18 | [4Sum](https://leetcode.com/problems/4sum/) | 🟡 | ⏳ not imported yet | - | - | - | - |
-| 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 🟡 | ⏳ not imported yet | - | - | - | - |
-| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 15 | [3Sum](https://leetcode.com/problems/3sum/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Two%20Pointers/0015-3sum.md) | 1 | 39 ms, beats 19.6% | - | 22 Apr 2026 |
+| 18 | [4Sum](https://leetcode.com/problems/4sum/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Two%20Pointers/0018-4sum.md) | 2 | 17 ms, beats 91.3% | - | 22 Apr 2026 |
+| 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Two%20Pointers/0019-remove-nth-node-from-end-of-list.md) | 4 | 0 ms, beats 100.0% | - | 20 Jul 2024 |
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Two%20Pointers/0026-remove-duplicates-from-sorted-array.md) | 1 | 1 ms, beats 83.3% | - | 2 Mar 2024 |
+| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Two%20Pointers/0027-remove-element.md) | 1 | 0 ms, beats 100.0% | - | 16 Feb 2024 |
+| 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Two%20Pointers/0028-find-the-index-of-the-first-occurrence-in-a-string.md) | 1 | 0 ms, beats 100.0% | - | 7 Aug 2024 |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
@@ -490,8 +543,8 @@ _Grouped by topic folder. Click a topic to expand it._
 
 | # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
 |---|---|---|---|---|---|---|---|
-| 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | 🟡 | ⏳ not imported yet | - | - | - | - |
-| 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Simulation/0043-multiply-strings.md) | 1 | 10 ms, beats 5.2% | - | 9 Jun 2026 |
+| 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Simulation/0054-spiral-matrix.md) | 1 | 0 ms, beats 100.0% | - | 21 Mar 2024 |
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 289 | [Game of Life](https://leetcode.com/problems/game-of-life/) | 🟡 | ⏳ not imported yet | - | - | - | - |
@@ -681,7 +734,7 @@ _Grouped by topic folder. Click a topic to expand it._
 
 | # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
 |---|---|---|---|---|---|---|---|
-| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Greedy/0011-container-with-most-water.md) | 2 | 5 ms, beats 82.9% | - | 1 Jun 2024 |
 | 409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 452 | [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 561 | [Array Partition](https://leetcode.com/problems/array-partition/) | 🟢 | ⏳ not imported yet | - | - | - | - |
@@ -739,7 +792,7 @@ _Grouped by topic folder. Click a topic to expand it._
 
 | # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
 |---|---|---|---|---|---|---|---|
-| 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Bit%20Manipulation/0029-divide-two-integers.md) | 1 | 1 ms, beats 100.0% | - | 8 Jun 2026 |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
@@ -796,10 +849,10 @@ _Grouped by topic folder. Click a topic to expand it._
 
 | # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
 |---|---|---|---|---|---|---|---|
-| 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | 🔴 | ⏳ not imported yet | - | - | - | - |
-| 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 🔴 | ⏳ not imported yet | - | - | - | - |
-| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | 🟡 | ⏳ not imported yet | - | - | - | - |
-| 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | 🔴 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Dynamic%20Programming/0010-regular-expression-matching.md) | 2 | 1 ms, beats 100.0% | - | 4 Jan 2025 |
+| 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 🔴 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Dynamic%20Programming/0042-trapping-rain-water.md) | 2 | 1 ms, beats 67.6% | - | 21 Mar 2024 |
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Dynamic%20Programming/0053-maximum-subarray.md) | 2 | 1 ms, beats 99.9% | - | 21 Oct 2024 |
+| 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Dynamic%20Programming/0055-jump-game.md) | 1 | 2 ms, beats 92.7% | - | 4 Sept 2024 |
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 | ⏳ not imported yet | - | - | - | - |
@@ -833,9 +886,9 @@ _Grouped by topic folder. Click a topic to expand it._
 
 | # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
 |---|---|---|---|---|---|---|---|
-| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | 🟡 | ⏳ not imported yet | - | - | - | - |
-| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Linked%20List/0002-add-two-numbers.md) | 3 | 1 ms, beats 100.0% | - | 4 Aug 2024 |
+| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 | [Python](https://github.com/Ved-u/Java-DSA/blob/main/Python/Linked%20List/0021-merge-two-sorted-lists.md) · [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Linked%20List/0021-merge-two-sorted-lists.md) | 2 | 0 ms, beats 100.0% | - | 25 Jul 2024 |
+| 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Linked%20List/0024-swap-nodes-in-pairs.md) | 2 | 0 ms, beats 100.0% | - | 10 Apr 2026 |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | 🟡 | ⏳ not imported yet | - | - | - | - |
@@ -868,9 +921,9 @@ _Grouped by topic folder. Click a topic to expand it._
 
 | # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
 |---|---|---|---|---|---|---|---|
-| 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 🟡 | ⏳ not imported yet | - | - | - | - |
-| 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 🟡 | ⏳ not imported yet | - | - | - | - |
-| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/0033-search-in-rotated-sorted-array.md) | 1 | 0 ms, beats 100.0% | - | 21 Dec 2024 |
+| 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/0034-find-first-and-last-position-of-element-in-sorted-array.md) | 3 | 0 ms, beats 100.0% | - | 19 Nov 2024 |
+| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/0035-search-insert-position.md) | 1 | 0 ms, beats 100.0% | - | 4 Mar 2024 |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 🟡 | ⏳ not imported yet | - | - | - | - |
@@ -902,7 +955,7 @@ _Grouped by topic folder. Click a topic to expand it._
 
 | # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
 |---|---|---|---|---|---|---|---|
-| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Stack/0020-valid-parentheses.md) | 3 | 1 ms, beats 99.9% | - | 23 Aug 2024 |
 | 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | 🔴 | ⏳ not imported yet | - | - | - | - |
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | 🟢 | ⏳ not imported yet | - | - | - | - |
@@ -933,7 +986,7 @@ _Grouped by topic folder. Click a topic to expand it._
 
 | # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
 |---|---|---|---|---|---|---|---|
-| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Sliding%20Window/0003-longest-substring-without-repeating-characters.md) | 1 | 5 ms, beats 98.2% | - | 14 Jun 2025 |
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 1343 | [Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | 🟡 | ⏳ not imported yet | - | - | - | - |
@@ -957,7 +1010,7 @@ _Grouped by topic folder. Click a topic to expand it._
 
 | # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
 |---|---|---|---|---|---|---|---|
-| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 | ⏳ not imported yet | - | - | - | - |
+| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Divide%20and%20Conquer/0004-median-of-two-sorted-arrays.md) | 2 | 5 ms, beats 22.9% | - | 19 Feb 2024 |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | 🟡 | ⏳ not imported yet | - | - | - | - |
@@ -980,7 +1033,7 @@ _Grouped by topic folder. Click a topic to expand it._
 
 | # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
 |---|---|---|---|---|---|---|---|
-| 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Sorting/0056-merge-intervals.md) | 1 | 9 ms, beats 37.4% | - | 11 Mar 2024 |
 | 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 414 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | 🟢 | ⏳ not imported yet | - | - | - | - |
@@ -1062,10 +1115,10 @@ _Grouped by topic folder. Click a topic to expand it._
 
 | # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
 |---|---|---|---|---|---|---|---|
-| 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | 🔴 | ⏳ not imported yet | - | - | - | - |
-| 46 | [Permutations](https://leetcode.com/problems/permutations/) | 🟡 | ⏳ not imported yet | - | - | - | - |
-| 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | 🔴 | ⏳ not imported yet | - | - | - | - |
-| 52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) | 🔴 | ⏳ not imported yet | - | - | - | - |
+| 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | 🔴 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Backtracking/0037-sudoku-solver.md) | 2 | 155 ms, beats 89.1% | - | 22 Nov 2024 |
+| 46 | [Permutations](https://leetcode.com/problems/permutations/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Backtracking/0046-permutations.md) | 2 | 1 ms, beats 88.9% | - | 19 Nov 2024 |
+| 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | 🔴 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Backtracking/0051-n-queens.md) | 1 | 11 ms, beats 5.9% | - | 5 Nov 2024 |
+| 52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) | 🔴 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Backtracking/0052-n-queens-ii.md) | 1 | 75 ms, beats 8.2% | - | 5 Nov 2024 |
 | 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 1863 | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | 🟢 | ⏳ not imported yet | - | - | - | - |
@@ -1090,7 +1143,7 @@ _Grouped by topic folder. Click a topic to expand it._
 
 | # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
 |---|---|---|---|---|---|---|---|
-| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Trie/0014-longest-common-prefix.md) | 3 | 1 ms, beats 58.6% | - | 30 Aug 2024 |
 | 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 3042 | [Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 3043 | [Find the Length of the Longest Common Prefix](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/) | 🟡 | ⏳ not imported yet | - | - | - | - |
@@ -1113,7 +1166,7 @@ _Grouped by topic folder. Click a topic to expand it._
 
 | # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
 |---|---|---|---|---|---|---|---|
-| 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Recursion/0050-powx-n.md) | 2 | 0 ms, beats 100.0% | - | 10 Oct 2024 |
 | 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 3483 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 
