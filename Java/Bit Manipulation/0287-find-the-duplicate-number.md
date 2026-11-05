@@ -38,3 +38,22 @@ class Solution {
     }
 }
 ```
+
+## Approach 3 — 2024-03-24 17:41 (java)
+
+*Runtime: 36 ms (faster than 14.2%) · Memory: 58.6 MB*
+
+```java
+class Solution {
+    public int findDuplicate(int[] nums) {
+        Arrays.sort(nums);
+        for(int i=0;i<nums.length;i++){
+            if(i<nums.length-1&&nums[i]==nums[i+1])return nums[i];
+            if(i==nums.length-1){
+                if(nums[i]==nums[i-1])return nums[i];
+            }
+        }
+        return 0;
+    }
+}
+```

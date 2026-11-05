@@ -22,3 +22,20 @@ class Solution {
     }
 }
 ```
+
+## Approach 2 — 2024-02-20 22:51 (java)
+
+*Runtime: 6 ms (faster than 18.9%) · Memory: 45.4 MB*
+
+```java
+class Solution {
+    public int missingNumber(int[] nums) {
+        Arrays.sort(nums);
+        int missing=0;
+        for(int i=0;i<nums.length;i++){
+            if(i+1!=nums[i])missing=i+1;
+        }
+        return missing;
+    }
+}
+```

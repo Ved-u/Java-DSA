@@ -27,3 +27,67 @@ class Solution {
     }
 }
 ```
+
+## Approach 2 — 2024-06-29 20:52 (java)
+
+*Runtime: 5 ms (faster than 14.3%) · Memory: 45.9 MB*
+
+```java
+class Solution {
+    public boolean searchMatrix(int[][] arr, int key) {
+        int i=0,j=arr[0].length-1;
+        while(i<arr.length&&j>=0){
+            if(arr[i][j]==key)return true;
+            else if(arr[i][j]>key)j--;
+            else i++;
+        }
+    return false;
+    }
+}
+```
+
+## Approach 3 — 2024-06-29 20:53 (java)
+
+*Runtime: 5 ms (faster than 14.3%) · Memory: 46.1 MB*
+
+```java
+class Solution {
+    public boolean searchMatrix(int[][] matrix, int target) {
+        int row = 0;
+        int col = matrix[0].length-1;
+
+        while(row < matrix.length && col >=0){
+            if(matrix[row][col] == target){
+                return true;
+            }
+            else if(matrix[row][col] > target){
+                col--;
+            }
+            else{
+                row++;
+            }
+        }
+        return false;
+        
+    }
+}
+```
+
+## Approach 4 — 2024-06-29 20:54 (java)
+
+*Runtime: 5 ms (faster than 14.3%) · Memory: 46.1 MB*
+
+```java
+class Solution {
+    public boolean searchMatrix(int[][] matrix, int target) {
+        int row = 0;
+        int col = matrix[0].length-1;
+        while(row < matrix.length && col >=0){
+            if(matrix[row][col] == target)return true;
+            else if(matrix[row][col] > target)col--;
+            else row++;
+        }
+    return false;
+    }
+}
+```

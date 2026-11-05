@@ -24,3 +24,28 @@ class Solution {
     }
 }
 ```
+
+## Approach 2 — 2024-11-29 12:26 (java)
+
+*Runtime: 2 ms (faster than 99.9%) · Memory: 44.3 MB*
+
+```java
+class Solution {
+    int count = 0;
+    public int pathSum(TreeNode root, int targetSum) {
+        HashMap<Long, Integer> map = new HashMap<>();
+        map.put(0L, 1);
+        helper(root, 0L, targetSum, map);
+        return count;
+    }
+    private void helper(TreeNode root, Long curSum, int targetSum, HashMap<Long, Integer> map) {
+        if (root == null) return;
+        curSum += root.val;
+        if(map.containsKey(curSum-targetSum))count+=map.get(curSum-targetSum);
+        map.put(curSum, map.getOrDefault(curSum, 0) + 1);
+        helper(root.left, curSum, targetSum, map);
+        helper(root.right, curSum, targetSum, map);
+        map.put(curSum, map.get(curSum) - 1);
+    }
+}
+```
