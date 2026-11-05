@@ -1,2 +1,1181 @@
 # Java-DSA
 Java DSA
+
+<!-- leetstash:stats:start -->
+<a id="ls-top"></a>
+<div align="center">
+
+<img alt="Ved-u's LeetCode Journey" src=".leetstash/banner.svg" width="100%">
+
+<a href="https://leetcode.com/u/VedantUtpat/"><img alt="LeetCode profile" src="https://img.shields.io/badge/LeetCode-VedantUtpat-ffa116?style=for-the-badge&logo=leetcode&logoColor=white"></a> <img alt="Solved" src="https://img.shields.io/badge/Solved-795-2ea043?style=for-the-badge">
+
+<b><a href="#ls-skills">Skills</a> &nbsp;·&nbsp; <a href="#ls-problems">All problems</a></b>
+
+<img alt="Ved-u's LeetCode stats" src=".leetstash/card.svg" width="100%">
+
+
+
+⏳ 795 solved problems still being imported from LeetCode.
+
+</div>
+
+<a id="ls-skills"></a>
+
+## 🧠 Skills
+
+<p align="center"><img alt="Skill radar" src=".leetstash/radar.svg" width="640"></p>
+
+_Topic coverage: a problem counts toward every topic it's tagged with._
+
+| Topic | Solved | 🟢 Easy | 🟡 Medium | 🔴 Hard | |
+|---|---|---|---|---|---|
+| Array | **405** | 276 | 120 | 9 | `████████████████` |
+| String | **239** | 174 | 63 | 2 | `█████████░░░░░░░` |
+| Math | **160** | 127 | 32 | 1 | `██████░░░░░░░░░░` |
+| Hash Table | **152** | 109 | 42 | 1 | `██████░░░░░░░░░░` |
+| Sorting | **98** | 63 | 33 | 2 | `████░░░░░░░░░░░░` |
+| Two Pointers | **94** | 53 | 39 | 2 | `████░░░░░░░░░░░░` |
+| Simulation | **93** | 63 | 30 | 0 | `████░░░░░░░░░░░░` |
+| Tree | **60** | 31 | 29 | 0 | `██░░░░░░░░░░░░░░` |
+| Binary Tree | **57** | 29 | 28 | 0 | `██░░░░░░░░░░░░░░` |
+| Bit Manipulation | **56** | 40 | 15 | 1 | `██░░░░░░░░░░░░░░` |
+| Counting | **54** | 40 | 14 | 0 | `██░░░░░░░░░░░░░░` |
+| Greedy | **53** | 27 | 26 | 0 | `██░░░░░░░░░░░░░░` |
+| Depth-First Search | **51** | 29 | 22 | 0 | `██░░░░░░░░░░░░░░` |
+| Matrix | **45** | 23 | 21 | 1 | `██░░░░░░░░░░░░░░` |
+| Linked List | **44** | 12 | 32 | 0 | `██░░░░░░░░░░░░░░` |
+
+<details><summary>78 more topics</summary>
+
+| Topic | Solved | 🟢 Easy | 🟡 Medium | 🔴 Hard | |
+|---|---|---|---|---|---|
+| Stack | **43** | 20 | 21 | 2 | `██░░░░░░░░░░░░░░` |
+| Binary Search | **35** | 19 | 13 | 3 | `█░░░░░░░░░░░░░░░` |
+| Dynamic Programming | **29** | 9 | 16 | 4 | `█░░░░░░░░░░░░░░░` |
+| Enumeration | **28** | 25 | 3 | 0 | `█░░░░░░░░░░░░░░░` |
+| Prefix Sum | **27** | 15 | 12 | 0 | `█░░░░░░░░░░░░░░░` |
+| Binary Search Tree | **23** | 9 | 14 | 0 | `█░░░░░░░░░░░░░░░` |
+| Breadth-First Search | **22** | 15 | 7 | 0 | `█░░░░░░░░░░░░░░░` |
+| Sliding Window | **20** | 12 | 7 | 1 | `█░░░░░░░░░░░░░░░` |
+| Number Theory | **18** | 10 | 8 | 0 | `█░░░░░░░░░░░░░░░` |
+| Heap (Priority Queue) | **17** | 9 | 6 | 2 | `█░░░░░░░░░░░░░░░` |
+| Design | **16** | 6 | 9 | 1 | `█░░░░░░░░░░░░░░░` |
+| Divide and Conquer | **16** | 4 | 11 | 1 | `█░░░░░░░░░░░░░░░` |
+| Recursion | **16** | 10 | 5 | 1 | `█░░░░░░░░░░░░░░░` |
+| Uncategorized | **13** | 12 | 1 | 0 | `█░░░░░░░░░░░░░░░` |
+| Monotonic Stack | **10** | 2 | 6 | 2 | `█░░░░░░░░░░░░░░░` |
+| Backtracking | **9** | 2 | 4 | 3 | `█░░░░░░░░░░░░░░░` |
+| Queue | **7** | 3 | 3 | 1 | `█░░░░░░░░░░░░░░░` |
+| String Matching | **7** | 7 | 0 | 0 | `█░░░░░░░░░░░░░░░` |
+| Bracket Sequences | **6** | 3 | 3 | 0 | `█░░░░░░░░░░░░░░░` |
+| Counting Sort | **6** | 4 | 2 | 0 | `█░░░░░░░░░░░░░░░` |
+| Brainteaser | **5** | 3 | 2 | 0 | `█░░░░░░░░░░░░░░░` |
+| Trie | **5** | 2 | 3 | 0 | `█░░░░░░░░░░░░░░░` |
+| Bucket Sort | **4** | 0 | 4 | 0 | `█░░░░░░░░░░░░░░░` |
+| Floyd's Cycle Finding Algorithm | **4** | 2 | 2 | 0 | `█░░░░░░░░░░░░░░░` |
+| Game Theory | **4** | 3 | 1 | 0 | `█░░░░░░░░░░░░░░░` |
+| Hash Function | **4** | 3 | 1 | 0 | `█░░░░░░░░░░░░░░░` |
+| Memoization | **4** | 3 | 1 | 0 | `█░░░░░░░░░░░░░░░` |
+| Quicksort | **4** | 2 | 2 | 0 | `█░░░░░░░░░░░░░░░` |
+| Algorithm X | **3** | 0 | 0 | 3 | `█░░░░░░░░░░░░░░░` |
+| Bubble Sort | **3** | 2 | 1 | 0 | `█░░░░░░░░░░░░░░░` |
+| Combinatorics | **3** | 2 | 1 | 0 | `█░░░░░░░░░░░░░░░` |
+| Data Stream | **3** | 1 | 1 | 1 | `█░░░░░░░░░░░░░░░` |
+| Geometry | **3** | 2 | 1 | 0 | `█░░░░░░░░░░░░░░░` |
+| Graph Theory | **3** | 2 | 1 | 0 | `█░░░░░░░░░░░░░░░` |
+| Interactive | **3** | 2 | 0 | 1 | `█░░░░░░░░░░░░░░░` |
+| Merge Sort | **3** | 0 | 3 | 0 | `█░░░░░░░░░░░░░░░` |
+| Pigeonhole Principle | **3** | 1 | 2 | 0 | `█░░░░░░░░░░░░░░░` |
+| Polygons | **3** | 3 | 0 | 0 | `█░░░░░░░░░░░░░░░` |
+| Prime Factorization | **3** | 1 | 2 | 0 | `█░░░░░░░░░░░░░░░` |
+| Sieve Theory | **3** | 1 | 2 | 0 | `█░░░░░░░░░░░░░░░` |
+| Binary Lifting | **2** | 0 | 2 | 0 | `█░░░░░░░░░░░░░░░` |
+| Concurrency | **2** | 1 | 1 | 0 | `█░░░░░░░░░░░░░░░` |
+| Doubly-Linked List | **2** | 1 | 1 | 0 | `█░░░░░░░░░░░░░░░` |
+| DP on Trees | **2** | 2 | 0 | 0 | `█░░░░░░░░░░░░░░░` |
+| Euclidean Algorithm | **2** | 2 | 0 | 0 | `█░░░░░░░░░░░░░░░` |
+| Greatest Common Divisor | **2** | 2 | 0 | 0 | `█░░░░░░░░░░░░░░░` |
+| Impartial Game | **2** | 2 | 0 | 0 | `█░░░░░░░░░░░░░░░` |
+| Lowest Common Ancestor | **2** | 0 | 2 | 0 | `█░░░░░░░░░░░░░░░` |
+| Ordered Set | **2** | 2 | 0 | 0 | `█░░░░░░░░░░░░░░░` |
+| Primality Test | **2** | 1 | 1 | 0 | `█░░░░░░░░░░░░░░░` |
+| Quickselect | **2** | 0 | 2 | 0 | `█░░░░░░░░░░░░░░░` |
+| Radix Sort | **2** | 0 | 2 | 0 | `█░░░░░░░░░░░░░░░` |
+| Range Minimum/Maximum Query | **2** | 0 | 0 | 2 | `█░░░░░░░░░░░░░░░` |
+| Segment Tree | **2** | 1 | 1 | 0 | `█░░░░░░░░░░░░░░░` |
+| Ternary Search | **2** | 0 | 1 | 1 | `█░░░░░░░░░░░░░░░` |
+| Binary Indexed Tree | **1** | 1 | 0 | 0 | `█░░░░░░░░░░░░░░░` |
+| Boyer–Moore Majority Vote Algorithm | **1** | 1 | 0 | 0 | `█░░░░░░░░░░░░░░░` |
+| Boyer–Moore String-Search Algorithm | **1** | 1 | 0 | 0 | `█░░░░░░░░░░░░░░░` |
+| Brute-Force Search | **1** | 0 | 1 | 0 | `█░░░░░░░░░░░░░░░` |
+| Cartesian Tree | **1** | 0 | 1 | 0 | `█░░░░░░░░░░░░░░░` |
+| Complete Knapsack | **1** | 0 | 1 | 0 | `█░░░░░░░░░░░░░░░` |
+| Dancing Links | **1** | 0 | 0 | 1 | `█░░░░░░░░░░░░░░░` |
+| Database | **1** | 1 | 0 | 0 | `█░░░░░░░░░░░░░░░` |
+| Iterator | **1** | 0 | 1 | 0 | `█░░░░░░░░░░░░░░░` |
+| Knapsack Problem | **1** | 0 | 1 | 0 | `█░░░░░░░░░░░░░░░` |
+| Knuth–Morris–Pratt Algorithm | **1** | 1 | 0 | 0 | `█░░░░░░░░░░░░░░░` |
+| Longest Common Subsequence | **1** | 0 | 1 | 0 | `█░░░░░░░░░░░░░░░` |
+| Longest Increasing Subsequence | **1** | 1 | 0 | 0 | `█░░░░░░░░░░░░░░░` |
+| Minimax | **1** | 1 | 0 | 0 | `█░░░░░░░░░░░░░░░` |
+| Monotonic Queue | **1** | 0 | 0 | 1 | `█░░░░░░░░░░░░░░░` |
+| Newton's Method | **1** | 1 | 0 | 0 | `█░░░░░░░░░░░░░░░` |
+| Nim Game | **1** | 1 | 0 | 0 | `█░░░░░░░░░░░░░░░` |
+| Prime Number Sieve | **1** | 0 | 1 | 0 | `█░░░░░░░░░░░░░░░` |
+| Rolling Hash | **1** | 1 | 0 | 0 | `█░░░░░░░░░░░░░░░` |
+| Shortest Path | **1** | 0 | 1 | 0 | `█░░░░░░░░░░░░░░░` |
+| Timsort | **1** | 0 | 1 | 0 | `█░░░░░░░░░░░░░░░` |
+| Union-Find | **1** | 0 | 1 | 0 | `█░░░░░░░░░░░░░░░` |
+| Z Algorithm | **1** | 1 | 0 | 0 | `█░░░░░░░░░░░░░░░` |
+
+</details>
+
+<p align="right"><a href="#ls-top">↑ Back to top</a></p>
+
+<a id="ls-problems"></a>
+
+## 📚 All problems
+
+**Jump to:** <a href="#ls-topic-math">Math</a>&nbsp;(95) · <a href="#ls-topic-hash-table">Hash Table</a>&nbsp;(84) · <a href="#ls-topic-string">String</a>&nbsp;(68) · <a href="#ls-topic-two-pointers">Two Pointers</a>&nbsp;(66) · <a href="#ls-topic-simulation">Simulation</a>&nbsp;(63) · <a href="#ls-topic-tree">Tree</a>&nbsp;(53) · <a href="#ls-topic-array">Array</a>&nbsp;(51) · <a href="#ls-topic-greedy">Greedy</a>&nbsp;(50) · <a href="#ls-topic-bit-manipulation">Bit Manipulation</a>&nbsp;(49) · <a href="#ls-topic-dynamic-programming">Dynamic Programming</a>&nbsp;(29) · <a href="#ls-topic-linked-list">Linked List</a>&nbsp;(27) · <a href="#ls-topic-binary-search">Binary Search</a>&nbsp;(26) · <a href="#ls-topic-stack">Stack</a>&nbsp;(23) · <a href="#ls-topic-sliding-window">Sliding Window</a>&nbsp;(16) · <a href="#ls-topic-divide-and-conquer">Divide and Conquer</a>&nbsp;(15) · <a href="#ls-topic-sorting">Sorting</a>&nbsp;(14) · <a href="#ls-topic-uncategorized">Uncategorized</a>&nbsp;(13) · <a href="#ls-topic-heap-priority-queue">Heap (Priority Queue)</a>&nbsp;(12) · <a href="#ls-topic-matrix">Matrix</a>&nbsp;(11) · <a href="#ls-topic-backtracking">Backtracking</a>&nbsp;(8) · <a href="#ls-topic-string-matching">String Matching</a>&nbsp;(4) · <a href="#ls-topic-trie">Trie</a>&nbsp;(4) · <a href="#ls-topic-design">Design</a>&nbsp;(3) · <a href="#ls-topic-recursion">Recursion</a>&nbsp;(3) · <a href="#ls-topic-concurrency">Concurrency</a>&nbsp;(2) · <a href="#ls-topic-depth-first-search">Depth-First Search</a>&nbsp;(2) · <a href="#ls-topic-database">Database</a>&nbsp;(1) · <a href="#ls-topic-graph-theory">Graph Theory</a>&nbsp;(1) · <a href="#ls-topic-queue">Queue</a>&nbsp;(1) · <a href="#ls-topic-segment-tree">Segment Tree</a>&nbsp;(1)
+
+_Grouped by topic folder. Click a topic to expand it._
+
+<a id="ls-topic-math"></a>
+<details><summary><b>Math</b> · 95 problems · 🟢 79 🟡 16 🔴 0</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 263 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 319 | [Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 492 | [Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 504 | [Base 7](https://leetcode.com/problems/base-7/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 812 | [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1037 | [Valid Boomerang](https://leetcode.com/problems/valid-boomerang/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1154 | [Day of the Year](https://leetcode.com/problems/day-of-the-year/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1304 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1317 | [Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1360 | [Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1390 | [Four Divisors](https://leetcode.com/problems/four-divisors/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1492 | [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1523 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1716 | [Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1812 | [Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1822 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1925 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1952 | [Three Divisors](https://leetcode.com/problems/three-divisors/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1979 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2119 | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2125 | [Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2409 | [Count Days Spent Together](https://leetcode.com/problems/count-days-spent-together/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2413 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2427 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2485 | [Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2520 | [Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2535 | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2544 | [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2651 | [Calculate Delayed Arrival Time](https://leetcode.com/problems/calculate-delayed-arrival-time/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2652 | [Sum Multiples](https://leetcode.com/problems/sum-multiples/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2769 | [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2806 | [Account Balance After Rounded Purchase](https://leetcode.com/problems/account-balance-after-rounded-purchase/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2843 | [  Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2894 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3024 | [Type of Triangle](https://leetcode.com/problems/type-of-triangle/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3099 | [Harshad Number](https://leetcode.com/problems/harshad-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3190 | [Find Minimum Operations to Make All Elements Divisible by Three](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3232 | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3233 | [Find the Count of Numbers Which Are Not Special](https://leetcode.com/problems/find-the-count-of-numbers-which-are-not-special/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3270 | [Find the Key of the Numbers](https://leetcode.com/problems/find-the-key-of-the-numbers/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3274 | [Check if Two Chessboard Squares Have the Same Color](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3289 | [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3300 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3345 | [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3432 | [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3516 | [Find Closest Person](https://leetcode.com/problems/find-closest-person/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3536 | [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3550 | [Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3591 | [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3602 | [Hexadecimal and Hexatrigesimal Conversion](https://leetcode.com/problems/hexadecimal-and-hexatrigesimal-conversion/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3622 | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3658 | [GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3663 | [Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3697 | [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3736 | [Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3765 | [Complete Prime Number](https://leetcode.com/problems/complete-prime-number/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3783 | [Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3870 | [Count Commas in Range](https://leetcode.com/problems/count-commas-in-range/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3875 | [Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3895 | [Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3899 | [Angles of a Triangle](https://leetcode.com/problems/angles-of-a-triangle/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3908 | [Valid Digit Number](https://leetcode.com/problems/valid-digit-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3918 | [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3968 | [Maximum Manhattan Distance After All Moves](https://leetcode.com/problems/maximum-manhattan-distance-after-all-moves/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3982 | [Sum of Integers with Maximum Digit Range](https://leetcode.com/problems/sum-of-integers-with-maximum-digit-range/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3986 | [Number of Elapsed Seconds Between Two Times](https://leetcode.com/problems/number-of-elapsed-seconds-between-two-times/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3996 | [Even Number of Knight Moves](https://leetcode.com/problems/even-number-of-knight-moves/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 4010 | [Maximize Pair Strength Using GCD](https://leetcode.com/problems/maximize-pair-strength-using-gcd/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 4034 | [Minimum Bishop Moves to Reach Target](https://leetcode.com/problems/minimum-bishop-moves-to-reach-target/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 4061 | [Minimum Queen Moves to Reach Target](https://leetcode.com/problems/minimum-queen-moves-to-reach-target/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-hash-table"></a>
+<details><summary><b>Hash Table</b> · 84 problems · 🟢 68 🟡 16 🔴 0</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 748 | [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 961 | [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1160 | [Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1331 | [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1436 | [Destination City](https://leetcode.com/problems/destination-city/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1452 | [People Whose List of Favorite Companies Is Not a Subset of Another List](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1460 | [Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1624 | [Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1636 | [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1796 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1807 | [Evaluate the Bracket Pairs of a String](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1935 | [Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1941 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2006 | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2023 | [Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2053 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2103 | [Rings and Rods](https://leetcode.com/problems/rings-and-rods/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2215 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2248 | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2273 | [Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2283 | [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2287 | [Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2309 | [Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2325 | [Decode the Message](https://leetcode.com/problems/decode-the-message/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2395 | [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2399 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2418 | [Sort the People](https://leetcode.com/problems/sort-the-people/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2423 | [Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2670 | [Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2716 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2784 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2956 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3005 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3046 | [Split the Array](https://leetcode.com/problems/split-the-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3121 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3146 | [Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3162 | [Find the Number of Good Pairs I](https://leetcode.com/problems/find-the-number-of-good-pairs-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3184 | [Count Pairs That Form a Complete Day I](https://leetcode.com/problems/count-pairs-that-form-a-complete-day-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3223 | [Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3238 | [Find the Number of Winning Players](https://leetcode.com/problems/find-the-number-of-winning-players/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3471 | [Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3541 | [Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3606 | [Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3668 | [Restore Finishing Order](https://leetcode.com/problems/restore-finishing-order/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3692 | [Majority Frequency Characters](https://leetcode.com/problems/majority-frequency-characters/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3712 | [Sum of Elements With Frequency Divisible by K](https://leetcode.com/problems/sum-of-elements-with-frequency-divisible-by-k/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3718 | [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3740 | [Minimum Distance Between Three Equal Elements I](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3741 | [Minimum Distance Between Three Equal Elements II](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3760 | [Maximum Substrings With Distinct Start](https://leetcode.com/problems/maximum-substrings-with-distinct-start/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3803 | [Count Residue Prefixes](https://leetcode.com/problems/count-residue-prefixes/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3852 | [Smallest Pair With Different Frequencies](https://leetcode.com/problems/smallest-pair-with-different-frequencies/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3866 | [First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3889 | [Mirror Frequency Distance](https://leetcode.com/problems/mirror-frequency-distance/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3926 | [Count Valid Word Occurrences](https://leetcode.com/problems/count-valid-word-occurrences/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3941 | [Password Strength](https://leetcode.com/problems/password-strength/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 4038 | [Count Integers Appearing in a Single Block](https://leetcode.com/problems/count-integers-appearing-in-a-single-block/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 4048 | [Count Values With Equally Spaced Occurrences I](https://leetcode.com/problems/count-values-with-equally-spaced-occurrences-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-string"></a>
+<details><summary><b>String</b> · 68 problems · 🟢 58 🟡 10 🔴 0</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 551 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 806 | [Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 824 | [Goat Latin](https://leetcode.com/problems/goat-latin/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1309 | [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1374 | [Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1422 | [Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1556 | [Thousand Separator](https://leetcode.com/problems/thousand-separator/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1592 | [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1678 | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1704 | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1769 | [Minimum Number of Operations to Move All Balls to Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1773 | [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1784 | [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1816 | [Truncate Sentence](https://leetcode.com/problems/truncate-sentence/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1844 | [Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1859 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1880 | [Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1957 | [Delete Characters to Make Fancy String](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1967 | [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2042 | [Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2194 | [Cells in a Range on an Excel Sheet](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2255 | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2264 | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2278 | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2315 | [Count Asterisks](https://leetcode.com/problems/count-asterisks/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2391 | [Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2437 | [Number of Valid Clock Times](https://leetcode.com/problems/number-of-valid-clock-times/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2446 | [Determine if Two Events Have Conflict](https://leetcode.com/problems/determine-if-two-events-have-conflict/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2490 | [Circular Sentence](https://leetcode.com/problems/circular-sentence/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2496 | [Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2515 | [Shortest Distance to Target String in a Circular Array](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2586 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2710 | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2785 | [Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2788 | [Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2833 | [Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2839 | [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2914 | [Minimum Number of Changes to Make Binary String Beautiful](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2942 | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3019 | [Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3163 | [String Compression III](https://leetcode.com/problems/string-compression-iii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3210 | [Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3330 | [Find the Original Typed String I](https://leetcode.com/problems/find-the-original-typed-string-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3517 | [Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3707 | [Equal Score Substrings](https://leetcode.com/problems/equal-score-substrings/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3798 | [Largest Even Number](https://leetcode.com/problems/largest-even-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3856 | [Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3913 | [Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3922 | [Minimum Flips to Make Binary String Coherent](https://leetcode.com/problems/minimum-flips-to-make-binary-string-coherent/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3931 | [Check Adjacent Digit Differences](https://leetcode.com/problems/check-adjacent-digit-differences/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 4006 | [Count Valid Prefixes](https://leetcode.com/problems/count-valid-prefixes/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-two-pointers"></a>
+<details><summary><b>Two Pointers</b> · 66 problems · 🟢 40 🟡 26 🔴 0</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 15 | [3Sum](https://leetcode.com/problems/3sum/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 18 | [4Sum](https://leetcode.com/problems/4sum/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 61 | [Rotate List](https://leetcode.com/problems/rotate-list/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 82 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 443 | [String Compression](https://leetcode.com/problems/string-compression/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 541 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 821 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 917 | [Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 925 | [Long Pressed Name](https://leetcode.com/problems/long-pressed-name/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1089 | [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1455 | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1721 | [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1861 | [Rotating the Box](https://leetcode.com/problems/rotating-the-box/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1961 | [Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2000 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2108 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2109 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2149 | [Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2161 | [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2200 | [Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2337 | [Move Pieces to Obtain a String](https://leetcode.com/problems/move-pieces-to-obtain-a-string/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2367 | [Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2460 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2465 | [Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2491 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2562 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3069 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3194 | [Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3239 | [Minimum Number of Flips to Make Binary Grid Palindromic I](https://leetcode.com/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-i/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3643 | [Flip Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3794 | [Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3823 | [Reverse Letters Then Special Characters in a String](https://leetcode.com/problems/reverse-letters-then-special-characters-in-a-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3867 | [Sum of GCD of Formed Pairs](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3884 | [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3936 | [Minimum Swaps to Move Zeros to End](https://leetcode.com/problems/minimum-swaps-to-move-zeros-to-end/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3992 | [Rearrange String to Avoid Character Pair](https://leetcode.com/problems/rearrange-string-to-avoid-character-pair/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-simulation"></a>
+<details><summary><b>Simulation</b> · 63 problems · 🟢 46 🟡 17 🔴 0</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 289 | [Game of Life](https://leetcode.com/problems/game-of-life/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 415 | [Add Strings](https://leetcode.com/problems/add-strings/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 498 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 657 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1252 | [Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1324 | [Print Words Vertically](https://leetcode.com/problems/print-words-vertically/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1389 | [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1518 | [Water Bottles](https://leetcode.com/problems/water-bottles/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1688 | [Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1945 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2011 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2022 | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2028 | [Find Missing Observations](https://leetcode.com/problems/find-missing-observations/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2079 | [Watering Plants](https://leetcode.com/problems/watering-plants/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2120 | [Execution of All Suffix Instructions Staying in a Grid](https://leetcode.com/problems/execution-of-all-suffix-instructions-staying-in-a-grid/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2138 | [Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2154 | [Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2169 | [Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2221 | [Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2582 | [Pass the Pillow](https://leetcode.com/problems/pass-the-pillow/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2744 | [Find Maximum Number of String Pairs](https://leetcode.com/problems/find-maximum-number-of-string-pairs/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2810 | [Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2946 | [Matrix Similarity After Cyclic Shifts](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2960 | [Count Tested Devices After Test Operations](https://leetcode.com/problems/count-tested-devices-after-test-operations/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2961 | [Double Modular Exponentiation](https://leetcode.com/problems/double-modular-exponentiation/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3100 | [Water Bottles II](https://leetcode.com/problems/water-bottles-ii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3168 | [Minimum Number of Chairs in a Waiting Room](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3175 | [Find The First Player to win K Games in a Row](https://leetcode.com/problems/find-the-first-player-to-win-k-games-in-a-row/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3178 | [Find the Child Who Has the Ball After K Seconds](https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3222 | [Find the Winning Player in Coin Game](https://leetcode.com/problems/find-the-winning-player-in-coin-game/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3248 | [Snake in Matrix](https://leetcode.com/problems/snake-in-matrix/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3271 | [Hash Divided String](https://leetcode.com/problems/hash-divided-string/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3324 | [Find the Sequence of Strings Appeared on the Screen](https://leetcode.com/problems/find-the-sequence-of-strings-appeared-on-the-screen/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3354 | [Make Array Elements Equal to Zero](https://leetcode.com/problems/make-array-elements-equal-to-zero/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3360 | [Stone Removal Game](https://leetcode.com/problems/stone-removal-game/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3379 | [Transformed Array](https://leetcode.com/problems/transformed-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3417 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3461 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3498 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3612 | [Process String with Special Operations I](https://leetcode.com/problems/process-string-with-special-operations-i/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3701 | [Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3726 | [Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3838 | [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3842 | [Toggle Light Bulbs](https://leetcode.com/problems/toggle-light-bulbs/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3847 | [Find the Score Difference in a Game](https://leetcode.com/problems/find-the-score-difference-in-a-game/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3894 | [Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3921 | [Score Validator](https://leetcode.com/problems/score-validator/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3925 | [Concatenate Array With Reverse](https://leetcode.com/problems/concatenate-array-with-reverse/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3959 | [Check Good Integer](https://leetcode.com/problems/check-good-integer/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 4020 | [Elevator Requests I](https://leetcode.com/problems/elevator-requests-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 4052 | [Cyclically Shift Rows and Columns](https://leetcode.com/problems/cyclically-shift-rows-and-columns/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-tree"></a>
+<details><summary><b>Tree</b> · 53 problems · 🟢 29 🟡 24 🔴 0</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 99 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 450 | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 538 | [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 563 | [Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 589 | [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 590 | [N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 669 | [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 701 | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 897 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1022 | [Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1038 | [Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1305 | [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1367 | [Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2265 | [Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2331 | [Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2385 | [Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3997 | [Count Dominant Nodes in a Binary Tree](https://leetcode.com/problems/count-dominant-nodes-in-a-binary-tree/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 4015 | [Weighted Sum of a Tree](https://leetcode.com/problems/weighted-sum-of-a-tree/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-array"></a>
+<details><summary><b>Array</b> · 51 problems · 🟢 45 🟡 6 🔴 0</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1287 | [Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1313 | [Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1437 | [Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1534 | [Count Good Triplets](https://leetcode.com/problems/count-good-triplets/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1550 | [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1725 | [Number Of Rectangles That Can Form The Largest Square](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1732 | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1752 | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1848 | [Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1991 | [Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2057 | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2176 | [Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2210 | [Count Hills and Valleys in an Array](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2239 | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2270 | [Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2432 | [The Employee That Worked on the Longest Task](https://leetcode.com/problems/the-employee-that-worked-on-the-longest-task/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2644 | [Find the Maximum Divisibility Score](https://leetcode.com/problems/find-the-maximum-divisibility-score/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2778 | [Sum of Squares of Special Elements ](https://leetcode.com/problems/sum-of-squares-of-special-elements/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2798 | [Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2951 | [Find the Peaks](https://leetcode.com/problems/find-the-peaks/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3065 | [Minimum Operations to Exceed Threshold Value I](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3131 | [Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3151 | [Special Array I](https://leetcode.com/problems/special-array-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3200 | [Maximum Height of a Triangle](https://leetcode.com/problems/maximum-height-of-a-triangle/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3285 | [Find Indices of Stable Mountains](https://leetcode.com/problems/find-indices-of-stable-mountains/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3349 | [Adjacent Increasing Subarrays Detection I](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3423 | [Maximum Difference Between Adjacent Elements in a Circular Array](https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3427 | [Sum of Variable Length Subarrays](https://leetcode.com/problems/sum-of-variable-length-subarrays/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3502 | [Minimum Cost to Reach Every Position](https://leetcode.com/problems/minimum-cost-to-reach-every-position/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3683 | [Earliest Time to Finish One Task](https://leetcode.com/problems/earliest-time-to-finish-one-task/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3809 | [Best Reachable Tower](https://leetcode.com/problems/best-reachable-tower/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3818 | [Minimum Prefix Removal to Make Array Strictly Increasing](https://leetcode.com/problems/minimum-prefix-removal-to-make-array-strictly-increasing/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3833 | [Count Dominant Indices](https://leetcode.com/problems/count-dominant-indices/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3861 | [Minimum Capacity Box](https://leetcode.com/problems/minimum-capacity-box/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3880 | [Minimum Absolute Difference Between Two Values](https://leetcode.com/problems/minimum-absolute-difference-between-two-values/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3903 | [Smallest Stable Index I](https://leetcode.com/problems/smallest-stable-index-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3904 | [Smallest Stable Index II](https://leetcode.com/problems/smallest-stable-index-ii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3909 | [Compare Sums of Bitonic Parts](https://leetcode.com/problems/compare-sums-of-bitonic-parts/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3912 | [Valid Elements in an Array](https://leetcode.com/problems/valid-elements-in-an-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3917 | [Count Indices With Opposite Parity](https://leetcode.com/problems/count-indices-with-opposite-parity/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3978 | [Unique Middle Element](https://leetcode.com/problems/unique-middle-element/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 4024 | [Nearest Available Drone](https://leetcode.com/problems/nearest-available-drone/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-greedy"></a>
+<details><summary><b>Greedy</b> · 50 problems · 🟢 27 🟡 23 🔴 0</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 452 | [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 561 | [Array Partition](https://leetcode.com/problems/array-partition/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 763 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 826 | [Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 861 | [Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 881 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 942 | [DI String Match](https://leetcode.com/problems/di-string-match/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 945 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 948 | [Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 976 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1221 | [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1400 | [Construct K Palindrome Strings](https://leetcode.com/problems/construct-k-palindrome-strings/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1414 | [Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1561 | [Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1710 | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1827 | [Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1963 | [Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1974 | [Minimum Time to Type Word Using Special Typewriter](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2037 | [Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2078 | [Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2126 | [Destroying Asteroids](https://leetcode.com/problems/destroying-asteroids/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2144 | [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2160 | [Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2486 | [Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2554 | [Maximum Number of Integers to Choose From a Range I](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2566 | [Maximum Difference by Remapping a Digit](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2600 | [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2656 | [Maximum Sum With Exactly K Elements ](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2697 | [Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2938 | [Separate Black and White Balls](https://leetcode.com/problems/separate-black-and-white-balls/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3014 | [Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3016 | [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3074 | [Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3075 | [Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3216 | [Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3402 | [Minimum Operations to Make Columns Strictly Increasing](https://leetcode.com/problems/minimum-operations-to-make-columns-strictly-increasing/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3633 | [Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3675 | [Minimum Operations to Transform String](https://leetcode.com/problems/minimum-operations-to-transform-string/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3684 | [Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3745 | [Maximize Expression of Three Elements](https://leetcode.com/problems/maximize-expression-of-three-elements/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3810 | [Minimum Operations to Reach Target Array](https://leetcode.com/problems/minimum-operations-to-reach-target-array/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 4000 | [Largest Integer With Given Digit Sum](https://leetcode.com/problems/largest-integer-with-given-digit-sum/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 4014 | [Minimum Total Price After Applying Discounts](https://leetcode.com/problems/minimum-total-price-after-applying-discounts/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-bit-manipulation"></a>
+<details><summary><b>Bit Manipulation</b> · 49 problems · 🟢 35 🟡 13 🔴 1</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 136 | [Single Number](https://leetcode.com/problems/single-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 476 | [Number Complement](https://leetcode.com/problems/number-complement/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 762 | [Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 868 | [Binary Gap](https://leetcode.com/problems/binary-gap/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1018 | [Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1310 | [XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1356 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1684 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1720 | [Decode XORed Array](https://leetcode.com/problems/decode-xored-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1930 | [Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2032 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2220 | [Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2433 | [Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2657 | [Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2859 | [Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2917 | [Find the K-or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2997 | [Minimum Number of Operations to Make Array XOR Equal to K](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3011 | [Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3191 | [Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3226 | [Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3304 | [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3314 | [Construct the Minimum Bitwise Array I](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3674 | [Minimum Operations to Equalize Array](https://leetcode.com/problems/minimum-operations-to-equalize-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3677 | [Count Binary Palindromic Numbers](https://leetcode.com/problems/count-binary-palindromic-numbers/) | 🔴 | ⏳ not imported yet | - | - | - | - |
+| 3688 | [Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3750 | [Minimum Number of Flips to Reverse Binary String](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3766 | [Minimum Operations to Make Binary Palindrome](https://leetcode.com/problems/minimum-operations-to-make-binary-palindrome/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3950 | [Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 4030 | [Check ASCII Palindromic](https://leetcode.com/problems/check-ascii-palindromic/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-dynamic-programming"></a>
+<details><summary><b>Dynamic Programming</b> · 29 problems · 🟢 9 🟡 16 🔴 4</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | 🔴 | ⏳ not imported yet | - | - | - | - |
+| 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 🔴 | ⏳ not imported yet | - | - | - | - |
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 139 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 664 | [Strange Printer](https://leetcode.com/problems/strange-printer/) | 🔴 | ⏳ not imported yet | - | - | - | - |
+| 787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 931 | [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1547 | [Minimum Cost to Cut a Stick](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/) | 🔴 | ⏳ not imported yet | - | - | - | - |
+| 3418 | [Maximum Amount of Money Robot Can Earn](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3751 | [Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3954 | [Sum of Compatible Numbers in Range I](https://leetcode.com/problems/sum-of-compatible-numbers-in-range-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-linked-list"></a>
+<details><summary><b>Linked List</b> · 27 problems · 🟢 7 🟡 20 🔴 0</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 622 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 641 | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 705 | [Design HashSet](https://leetcode.com/problems/design-hashset/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 706 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 707 | [Design Linked List](https://leetcode.com/problems/design-linked-list/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 725 | [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1019 | [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1290 | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1669 | [Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2058 | [Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2181 | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2326 | [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2487 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2807 | [Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2816 | [Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3217 | [Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-binary-search"></a>
+<details><summary><b>Binary Search</b> · 26 problems · 🟢 17 🟡 7 🔴 2</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | 🔴 | ⏳ not imported yet | - | - | - | - |
+| 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 713 | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1095 | [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/) | 🔴 | ⏳ not imported yet | - | - | - | - |
+| 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1385 | [Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1608 | [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2089 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2540 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2824 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 4056 | [Number of Intersecting Interval Pairs I](https://leetcode.com/problems/number-of-intersecting-interval-pairs-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-stack"></a>
+<details><summary><b>Stack</b> · 23 problems · 🟢 12 🟡 10 🔴 1</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | 🔴 | ⏳ not imported yet | - | - | - | - |
+| 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 682 | [Baseball Game](https://leetcode.com/problems/baseball-game/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 901 | [Online Stock Span](https://leetcode.com/problems/online-stock-span/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 946 | [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1190 | [Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1381 | [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1441 | [Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1475 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1544 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1614 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2390 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2696 | [Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3174 | [Clear Digits](https://leetcode.com/problems/clear-digits/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3412 | [Find Mirror Score of a String](https://leetcode.com/problems/find-mirror-score-of-a-string/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3676 | [Count Bowl Subarrays](https://leetcode.com/problems/count-bowl-subarrays/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3746 | [Minimum String Length After Balanced Removals](https://leetcode.com/problems/minimum-string-length-after-balanced-removals/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-sliding-window"></a>
+<details><summary><b>Sliding Window</b> · 16 problems · 🟢 11 🟡 5 🔴 0</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1343 | [Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1456 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1652 | [Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1876 | [Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1984 | [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2269 | [Find the K-Beauty of a Number](https://leetcode.com/problems/find-the-k-beauty-of-a-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2958 | [Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3090 | [Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3206 | [Alternating Groups I](https://leetcode.com/problems/alternating-groups-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3254 | [Find the Power of K-Size Subarrays I](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3258 | [Count Substrings That Satisfy K-Constraint I](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3364 | [Minimum Positive Sum Subarray ](https://leetcode.com/problems/minimum-positive-sum-subarray/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3411 | [Maximum Subarray With Equal Products](https://leetcode.com/problems/maximum-subarray-with-equal-products/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 4043 | [Count Rotations With Exactly K Equal Adjacent Pairs](https://leetcode.com/problems/count-rotations-with-exactly-k-equal-adjacent-pairs/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-divide-and-conquer"></a>
+<details><summary><b>Divide and Conquer</b> · 15 problems · 🟢 4 🟡 10 🔴 1</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 | ⏳ not imported yet | - | - | - | - |
+| 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 148 | [Sort List](https://leetcode.com/problems/sort-list/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 654 | [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1382 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3737 | [Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-sorting"></a>
+<details><summary><b>Sorting</b> · 14 problems · 🟢 12 🟡 2 🔴 0</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 414 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1619 | [Mean of Array After Removing Some Elements](https://leetcode.com/problems/mean-of-array-after-removing-some-elements/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1637 | [Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1913 | [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2733 | [Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3010 | [Divide an Array Into Subarrays With Minimum Cost I](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3467 | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3769 | [Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3774 | [Absolute Difference Between Maximum and Minimum K Elements](https://leetcode.com/problems/absolute-difference-between-maximum-and-minimum-k-elements/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-uncategorized"></a>
+<details><summary><b>Uncategorized</b> · 13 problems · 🟢 12 🟡 1 🔴 0</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 2879 | [Display the First Three Rows](https://leetcode.com/problems/display-the-first-three-rows/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2881 | [Create a New Column](https://leetcode.com/problems/create-a-new-column/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2884 | [Modify Columns](https://leetcode.com/problems/modify-columns/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2888 | [Reshape Data: Concatenate](https://leetcode.com/problems/reshape-data-concatenate/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3963 | [Create Grid With Exactly One Path](https://leetcode.com/problems/create-grid-with-exactly-one-path/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 4070 | [Minimum Rotations to Dial a Number I](https://leetcode.com/problems/minimum-rotations-to-dial-a-number-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 4074 | [Maximum Product Pair With Target Sum](https://leetcode.com/problems/maximum-product-pair-with-target-sum/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 4078 | [Three Fibonacci Sum](https://leetcode.com/problems/three-fibonacci-sum/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 4079 | [Prime Subset Selection I](https://leetcode.com/problems/prime-subset-selection-i/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 4083 | [Minimum Deletions to Make Array Sharp](https://leetcode.com/problems/minimum-deletions-to-make-array-sharp/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 4088 | [Difference Between Peaks and Valleys](https://leetcode.com/problems/difference-between-peaks-and-valleys/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 4092 | [Binary Digit Score](https://leetcode.com/problems/binary-digit-score/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 4097 | [Minimum Value of Merged Integers](https://leetcode.com/problems/minimum-value-of-merged-integers/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-heap-priority-queue"></a>
+<details><summary><b>Heap (Priority Queue)</b> · 12 problems · 🟢 8 🟡 2 🔴 2</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | 🔴 | ⏳ not imported yet | - | - | - | - |
+| 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | 🔴 | ⏳ not imported yet | - | - | - | - |
+| 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2500 | [Delete Greatest Value in Each Row](https://leetcode.com/problems/delete-greatest-value-in-each-row/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2558 | [Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2593 | [Find Score of an Array After Marking All Elements](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2974 | [Minimum Number Game](https://leetcode.com/problems/minimum-number-game/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3264 | [Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3318 | [Find X-Sum of All K-Long Subarrays I](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3507 | [Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 4065 | [Rearrange Array by Removing Distinct Values](https://leetcode.com/problems/rearrange-array-by-removing-distinct-values/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-matrix"></a>
+<details><summary><b>Matrix</b> · 11 problems · 🟢 9 🟡 2 🔴 0</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 1314 | [Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1380 | [Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1582 | [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2319 | [Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2373 | [Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2545 | [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2923 | [Find Champion I](https://leetcode.com/problems/find-champion-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3898 | [Find the Degree of Each Vertex](https://leetcode.com/problems/find-the-degree-of-each-vertex/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-backtracking"></a>
+<details><summary><b>Backtracking</b> · 8 problems · 🟢 2 🟡 3 🔴 3</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | 🔴 | ⏳ not imported yet | - | - | - | - |
+| 46 | [Permutations](https://leetcode.com/problems/permutations/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | 🔴 | ⏳ not imported yet | - | - | - | - |
+| 52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) | 🔴 | ⏳ not imported yet | - | - | - | - |
+| 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1863 | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1980 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-string-matching"></a>
+<details><summary><b>String Matching</b> · 4 problems · 🟢 4 🟡 0 🔴 0</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 796 | [Rotate String](https://leetcode.com/problems/rotate-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1408 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3407 | [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-trie"></a>
+<details><summary><b>Trie</b> · 4 problems · 🟢 2 🟡 2 🔴 0</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 3042 | [Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3043 | [Find the Length of the Longest Common Prefix](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-design"></a>
+<details><summary><b>Design</b> · 3 problems · 🟢 1 🟡 2 🔴 0</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 535 | [Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1476 | [Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-recursion"></a>
+<details><summary><b>Recursion</b> · 3 problems · 🟢 2 🟡 1 🔴 0</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3483 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-concurrency"></a>
+<details><summary><b>Concurrency</b> · 2 problems · 🟢 1 🟡 1 🔴 0</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 1114 | [Print in Order](https://leetcode.com/problems/print-in-order/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1115 | [Print FooBar Alternately](https://leetcode.com/problems/print-foobar-alternately/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-depth-first-search"></a>
+<details><summary><b>Depth-First Search</b> · 2 problems · 🟢 1 🟡 1 🔴 0</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2596 | [Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-database"></a>
+<details><summary><b>Database</b> · 1 problem · 🟢 1 🟡 0 🔴 0</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 1757 | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-graph-theory"></a>
+<details><summary><b>Graph Theory</b> · 1 problem · 🟢 1 🟡 0 🔴 0</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 1791 | [Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-queue"></a>
+<details><summary><b>Queue</b> · 1 problem · 🟢 1 🟡 0 🔴 0</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<a id="ls-topic-segment-tree"></a>
+<details><summary><b>Segment Tree</b> · 1 problem · 🟢 1 🟡 0 🔴 0</summary>
+
+| # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
+|---|---|---|---|---|---|---|---|
+| 2913 | [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+
+</details>
+
+<p align="right"><a href="#ls-top">↑ Back to top</a></p>
+
+<sub>Auto-generated by LeetStash on 5 Nov 2026. Edit anything outside the LeetStash markers and it will be kept.</sub>
+<!-- leetstash:stats:end -->

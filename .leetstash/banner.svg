@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" role="img" aria-labelledby="t">
+<title id="t">Ved-u's LeetCode Journey. 795 problems solved.</title>
+<style>
+.bg{fill:#ffffff;stroke:#d0d7de}.title{fill:#1f2328;font-size:18px;font-weight:600}.muted{fill:#656d76;font-size:12px}
+.label{fill:#1f2328;font-size:13px;font-weight:600}.value{fill:#1f2328;font-size:22px;font-weight:700}.value-sm{fill:#1f2328;font-size:14px;font-weight:700}
+.total{fill:#1f2328;font-size:30px;font-weight:700}.track{fill:#eaeef2}.ring-track{stroke:#eaeef2}.divider{stroke:#d0d7de}.grid{stroke:#d0d7de;fill:none}
+@media (prefers-color-scheme: dark){.bg{fill:#0d1117;stroke:#30363d}.title,.label,.value,.value-sm,.total{fill:#e6edf3}.muted{fill:#8b949e}.track{fill:#21262d}.ring-track{stroke:#21262d}.divider{stroke:#30363d}.grid{stroke:#30363d}}
+@keyframes ls-fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@keyframes ls-grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes ls-pop{from{opacity:0;transform:scale(.2)}to{opacity:1;transform:scale(1)}}
+@keyframes ls-pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.fade{animation:ls-fade .6s ease-out both}
+.grow{transform-box:fill-box;transform-origin:left center;animation:ls-grow .9s cubic-bezier(.2,.7,.3,1) both}
+.pulse{animation:ls-pulse 1.8s ease-in-out infinite}
+.d1{animation-delay:0.12s}
+.d2{animation-delay:0.24s}
+.d3{animation-delay:0.36s}
+.d4{animation-delay:0.48s}
+.d5{animation-delay:0.60s}
+.d6{animation-delay:0.72s}
+.d7{animation-delay:0.84s}
+.d8{animation-delay:0.96s}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+@keyframes ls-drift{0%,100%{transform:translate(0,0)}50%{transform:translate(-60px,18px)}}
+.glow{animation:ls-drift 14s ease-in-out infinite}
+</style>
+<defs>
+<linearGradient id="bn-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#1c2128"/></linearGradient>
+<radialGradient id="bn-glow"><stop offset="0" stop-color="#ffa116" stop-opacity="0.45"/><stop offset="1" stop-color="#ffa116" stop-opacity="0"/></radialGradient>
+<radialGradient id="bn-glow2"><stop offset="0" stop-color="#58a6ff" stop-opacity="0.22"/><stop offset="1" stop-color="#58a6ff" stop-opacity="0"/></radialGradient>
+<pattern id="bn-dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#ffffff" fill-opacity="0.06"/></pattern>
+<clipPath id="bn-clip"><rect width="1200" height="260" rx="16"/></clipPath>
+</defs>
+<g clip-path="url(#bn-clip)">
+<rect width="1200" height="260" fill="url(#bn-bg)"/>
+<rect width="1200" height="260" fill="url(#bn-dots)"/>
+<circle cx="1000" cy="40" r="260" fill="url(#bn-glow)" class="glow"/>
+<circle cx="760" cy="300" r="200" fill="url(#bn-glow2)"/>
+<text x="1150" y="200" text-anchor="end" font-family="SFMono-Regular,Consolas,monospace" font-size="190" font-weight="700" fill="#ffffff" fill-opacity="0.05">&lt;/&gt;</text>
+<rect x="0" y="0" width="6" height="260" fill="#ffa116"/>
+</g>
+<text x="64" y="92" fill="#ffffff" font-size="56" font-weight="800" class="fade">Ved-u's LeetCode Journey</text>
+<text x="64" y="136" fill="#8b949e" font-size="22" class="fade d1">Every Accepted solution, synced to GitHub automatically</text>
+<g class="fade d3"><rect x="64" y="178" width="128" height="36" rx="18" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/><circle cx="82" cy="196" r="5" fill="#2ea043"/><text x="94" y="201" fill="#e6edf3" font-size="15" font-weight="600">795 solved</text></g><g class="fade d4"><rect x="204" y="178" width="110" height="36" rx="18" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/><circle cx="222" cy="196" r="5" fill="#00b8a3"/><text x="234" y="201" fill="#e6edf3" font-size="15" font-weight="600">545 Easy</text></g><g class="fade d5"><rect x="325.6" y="178" width="128" height="36" rx="18" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/><circle cx="343.6" cy="196" r="5" fill="#ffc01e"/><text x="355.6" y="201" fill="#e6edf3" font-size="15" font-weight="600">236 Medium</text></g><g class="fade d6"><rect x="465.6" y="178" width="100" height="36" rx="18" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/><circle cx="483.6" cy="196" r="5" fill="#ff375f"/><text x="495.6" y="201" fill="#e6edf3" font-size="15" font-weight="600">14 Hard</text></g>
+</svg>
