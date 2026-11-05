@@ -15,7 +15,7 @@ Java DSA
 
 
 
-⏳ 575 solved problems still being imported from LeetCode.
+⏳ 566 solved problems still being imported from LeetCode.
 
 </div>
 
@@ -37,12 +37,12 @@ Java DSA
 | 30 Oct 2026 | [Maximum Difference by Remapping a Digit](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Greedy/2566-maximum-difference-by-remapping-a-digit.md) |
 | 29 Oct 2026 | [Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/1360-number-of-days-between-two-dates.md) |
 | 24 Oct 2026 | [Count Days Spent Together](https://leetcode.com/problems/count-days-spent-together/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/2409-count-days-spent-together.md) |
+| 23 Oct 2026 | [Double Modular Exponentiation](https://leetcode.com/problems/double-modular-exponentiation/) | 🟡 Medium | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Simulation/2961-double-modular-exponentiation.md) |
 | 22 Oct 2026 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | 🟡 Medium | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Divide%20and%20Conquer/0240-search-a-2d-matrix-ii.md) |
 | 22 Oct 2026 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Tree/0617-merge-two-binary-trees.md) |
 | 19 Oct 2026 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/2089-find-target-indices-after-sorting-array.md) |
+| 15 Oct 2026 | [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Segment%20Tree/2913-subarrays-distinct-element-sum-of-squares-i.md) |
 | 14 Oct 2026 | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque/) | 🟡 Medium | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Linked%20List/0641-design-circular-deque.md) |
-| 11 Oct 2026 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | 🟡 Medium | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Linked%20List/0622-design-circular-queue.md) |
-| 11 Oct 2026 | [Sum of Squares of Special Elements ](https://leetcode.com/problems/sum-of-squares-of-special-elements/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Array/2778-sum-of-squares-of-special-elements.md) |
 
 <p align="right"><a href="#ls-top">↑ Back to top</a></p>
 
@@ -55,8 +55,8 @@ Java DSA
 xychart-beta
     title "Problems solved (total)"
     x-axis ["Dec 25", "Jan 26", "Feb 26", "Mar 26", "Apr 26", "May 26", "Jun 26", "Jul 26", "Aug 26", "Sept 26", "Oct 26", "Nov 26"]
-    y-axis "Solved" 0 --> 255
-    line [147, 147, 147, 154, 164, 172, 182, 186, 191, 206, 219, 220]
+    y-axis "Solved" 0 --> 265
+    line [150, 150, 150, 158, 168, 176, 186, 190, 198, 213, 228, 229]
 ```
 
 <p align="right"><a href="#ls-top">↑ Back to top</a></p>
@@ -180,7 +180,7 @@ _Topic coverage: a problem counts toward every topic it's tagged with._
 
 | Language | Problems | |
 |---|---|---|
-| Java | 220 | `████████████████` |
+| Java | 229 | `████████████████` |
 | Python | 1 | `█░░░░░░░░░░░░░░░` |
 
 <p align="right"><a href="#ls-top">↑ Back to top</a></p>
@@ -251,7 +251,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | 2652 | [Sum Multiples](https://leetcode.com/problems/sum-multiples/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/2652-sum-multiples.md) | 2 | 2 ms, beats 96.8% | - | 25 Jan 2024 |
 | 2769 | [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/2769-find-the-maximum-achievable-number.md) | 1 | - | - | 17 Aug 2026 |
 | 2806 | [Account Balance After Rounded Purchase](https://leetcode.com/problems/account-balance-after-rounded-purchase/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/2806-account-balance-after-rounded-purchase.md) | 1 | 0 ms, beats 100.0% | - | 9 Aug 2024 |
-| 2843 | [  Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2843 | [  Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/2843-count-symmetric-integers.md) | 1 | 1493 ms, beats 5.2% | - | 9 Aug 2024 |
 | 2894 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 3024 | [Type of Triangle](https://leetcode.com/problems/type-of-triangle/) | 🟢 | ⏳ not imported yet | - | - | - | - |
@@ -443,8 +443,8 @@ _Grouped by topic folder. Click a topic to expand it._
 | 2785 | [Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/String/2785-sort-vowels-in-a-string.md) | 2 | 41 ms, beats 63.7% | - | 26 Apr 2024 |
 | 2788 | [Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/String/2788-split-strings-by-separator.md) | 1 | 6 ms, beats 89.8% | - | 10 Jun 2024 |
 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/String/2828-check-if-a-string-is-an-acronym-of-words.md) | 1 | 1 ms, beats 100.0% | - | 30 Mar 2024 |
-| 2833 | [Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 2839 | [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2833 | [Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/String/2833-furthest-point-from-origin.md) | 1 | 1 ms, beats 100.0% | - | 17 Aug 2024 |
+| 2839 | [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/String/2839-check-if-strings-can-be-made-equal-with-operations-i.md) | 1 | 2 ms, beats 42.2% | - | 29 Mar 2026 |
 | 2914 | [Minimum Number of Changes to Make Binary String Beautiful](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 2942 | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 3019 | [Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/) | 🟢 | ⏳ not imported yet | - | - | - | - |
@@ -523,7 +523,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | 2465 | [Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 2491 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 2562 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Two%20Pointers/2562-find-the-array-concatenation-value.md) | 1 | 11 ms, beats 7.1% | - | 11 Aug 2024 |
-| 3069 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3069 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Two%20Pointers/3069-distribute-elements-into-two-arrays-i.md) | 1 | - | - | 20 Aug 2026 |
 | 3194 | [Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 3239 | [Minimum Number of Flips to Make Binary Grid Palindromic I](https://leetcode.com/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-i/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 3643 | [Flip Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/) | 🟢 | ⏳ not imported yet | - | - | - | - |
@@ -578,7 +578,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | 2810 | [Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Simulation/2810-faulty-keyboard.md) | 2 | 3 ms, beats 98.6% | - | 3 Apr 2024 |
 | 2946 | [Matrix Similarity After Cyclic Shifts](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 2960 | [Count Tested Devices After Test Operations](https://leetcode.com/problems/count-tested-devices-after-test-operations/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 2961 | [Double Modular Exponentiation](https://leetcode.com/problems/double-modular-exponentiation/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 2961 | [Double Modular Exponentiation](https://leetcode.com/problems/double-modular-exponentiation/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Simulation/2961-double-modular-exponentiation.md) | 1 | - | - | 23 Oct 2026 |
 | 3100 | [Water Bottles II](https://leetcode.com/problems/water-bottles-ii/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 3168 | [Minimum Number of Chairs in a Waiting Room](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 3175 | [Find The First Player to win K Games in a Row](https://leetcode.com/problems/find-the-first-player-to-win-k-games-in-a-row/) | 🟡 | ⏳ not imported yet | - | - | - | - |
@@ -824,7 +824,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 2433 | [Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 2657 | [Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Bit%20Manipulation/2657-find-the-prefix-common-array-of-two-arrays.md) | 1 | 2 ms, beats 76.6% | - | 20 May 2026 |
-| 2859 | [Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2859 | [Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Bit%20Manipulation/2859-sum-of-values-at-indices-with-k-set-bits.md) | 1 | 3 ms, beats 13.4% | - | 6 Jul 2024 |
 | 2917 | [Find the K-or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 2997 | [Minimum Number of Operations to Make Array XOR Equal to K](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 3011 | [Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | 🟡 | ⏳ not imported yet | - | - | - | - |
@@ -994,8 +994,8 @@ _Grouped by topic folder. Click a topic to expand it._
 | 1876 | [Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Sliding%20Window/1876-substrings-of-size-three-with-distinct-characters.md) | 2 | 1 ms, beats 96.8% | - | 10 Jun 2024 |
 | 1984 | [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Sliding%20Window/1984-minimum-difference-between-highest-and-lowest-of-k-scores.md) | 1 | 9 ms, beats 26.1% | - | 28 Mar 2026 |
 | 2269 | [Find the K-Beauty of a Number](https://leetcode.com/problems/find-the-k-beauty-of-a-number/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 2958 | [Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) | 🟡 | ⏳ not imported yet | - | - | - | - |
-| 3090 | [Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2958 | [Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Sliding%20Window/2958-length-of-longest-subarray-with-at-most-k-frequency.md) | 1 | - | - | 12 Aug 2026 |
+| 3090 | [Maximum Length Substring With Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Sliding%20Window/3090-maximum-length-substring-with-two-occurrences.md) | 1 | - | - | 14 Aug 2026 |
 | 3206 | [Alternating Groups I](https://leetcode.com/problems/alternating-groups-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 3254 | [Find the Power of K-Size Subarrays I](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 3258 | [Count Substrings That Satisfy K-Constraint I](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
@@ -1224,7 +1224,7 @@ _Grouped by topic folder. Click a topic to expand it._
 
 | # | Problem | Level | Solution | Approaches | Best runtime | Time | First solved |
 |---|---|---|---|---|---|---|---|
-| 2913 | [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 2913 | [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Segment%20Tree/2913-subarrays-distinct-element-sum-of-squares-i.md) | 2 | - | - | 15 Oct 2026 |
 
 </details>
 
