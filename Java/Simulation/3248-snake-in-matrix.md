@@ -41,3 +41,29 @@ class Solution {
     }
 }
 ```
+
+## Approach 3 — 2024-10-06 13:25 (java)
+
+*Runtime: 2 ms (faster than 95.0%) · Memory: 44.3 MB*
+
+```java
+class Solution {
+    public int finalPositionOfSnake(int n, List<String> c) {
+        // int mat[][]=new int[n][n];
+        // int ans=0;
+        // for(int i=0;i<mat.length;i++){
+        //     for(int j=0;j<mat[0].length;j++){
+        //         mat[i][j]=ans++;
+        //     }
+        // }
+        int rc[]={0,0};
+        for(String x:c){
+            if(x.equals("UP"))rc[0]--;
+            else if(x.equals("DOWN"))rc[0]++;
+            else if(x.equals("LEFT"))rc[1]--;
+           else if(x.equals("RIGHT")) rc[1]++;
+        }
+    return rc[0]*n+rc[1];
+    }
+}
+```

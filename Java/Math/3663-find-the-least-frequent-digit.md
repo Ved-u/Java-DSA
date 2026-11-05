@@ -32,3 +32,34 @@ class Solution {
     }
 }
 ```
+
+## Approach 2 — 2025-09-05 10:12 (java)
+
+*Runtime: 1 ms (faster than 100.0%) · Memory: 40.8 MB*
+
+```java
+class Solution {
+    public int getLeastFrequentDigit(int n) {
+        int freqA[]=new int[10];
+        while(n>0){
+            int digit = n%10;
+            freqA[digit]++;
+            n/=10;
+        }
+        int freq=1000,idx=10;
+        for(int i=0;i<freqA.length;i++){
+            if(freqA[i]==0)continue;
+
+            if(freq==freqA[i]){
+                idx=Math.min(idx,i);
+            }
+            if(freqA[i]<freq){
+                freq=freqA[i];
+                idx=i;
+            }
+            //ans=Math.min(ans,)
+        }
+    return idx;
+    }
+}
+```
