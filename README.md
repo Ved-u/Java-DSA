@@ -15,7 +15,7 @@ Java DSA
 
 
 
-⏳ 375 solved problems still being imported from LeetCode.
+⏳ 373 solved problems still being imported from LeetCode.
 
 </div>
 
@@ -55,8 +55,8 @@ Java DSA
 xychart-beta
     title "Problems solved (total)"
     x-axis ["Dec 25", "Jan 26", "Feb 26", "Mar 26", "Apr 26", "May 26", "Jun 26", "Jul 26", "Aug 26", "Sept 26", "Oct 26", "Nov 26"]
-    y-axis "Solved" 0 --> 485
-    line [271, 276, 278, 301, 315, 327, 341, 350, 366, 392, 417, 420]
+    y-axis "Solved" 0 --> 490
+    line [272, 277, 279, 303, 317, 329, 343, 352, 368, 394, 419, 422]
 ```
 
 <p align="right"><a href="#ls-top">↑ Back to top</a></p>
@@ -180,7 +180,7 @@ _Topic coverage: a problem counts toward every topic it's tagged with._
 
 | Language | Problems | |
 |---|---|---|
-| Java | 416 | `████████████████` |
+| Java | 418 | `████████████████` |
 | pythondata | 4 | `█░░░░░░░░░░░░░░░` |
 | Python | 1 | `█░░░░░░░░░░░░░░░` |
 
@@ -271,7 +271,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | 3536 | [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 3550 | [Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/3550-smallest-index-with-digit-sum-equal-to-index.md) | 1 | - | - | 24 Sept 2026 |
 | 3591 | [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 3602 | [Hexadecimal and Hexatrigesimal Conversion](https://leetcode.com/problems/hexadecimal-and-hexatrigesimal-conversion/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3602 | [Hexadecimal and Hexatrigesimal Conversion](https://leetcode.com/problems/hexadecimal-and-hexatrigesimal-conversion/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/3602-hexadecimal-and-hexatrigesimal-conversion.md) | 1 | 4 ms, beats 46.5% | - | 29 Mar 2026 |
 | 3622 | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/3622-check-divisibility-by-digit-sum-and-product.md) | 1 | - | - | 22 Aug 2026 |
 | 3658 | [GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/3658-gcd-of-odd-and-even-sums.md) | 2 | 0 ms, beats 100.0% | - | 5 Apr 2026 |
 | 3663 | [Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/3663-find-the-least-frequent-digit.md) | 1 | 1 ms, beats 100.0% | - | 5 Sept 2025 |
@@ -368,7 +368,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | 3223 | [Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 3238 | [Find the Number of Winning Players](https://leetcode.com/problems/find-the-number-of-winning-players/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Hash%20Table/3238-find-the-number-of-winning-players.md) | 2 | 1 ms, beats 100.0% | - | 3 Aug 2024 |
 | 3471 | [Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Hash%20Table/3471-find-the-largest-almost-missing-integer.md) | 1 | - | - | 18 Aug 2026 |
-| 3541 | [Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 3541 | [Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Hash%20Table/3541-find-most-frequent-vowel-and-consonant.md) | 1 | 1 ms, beats 100.0% | - | 14 Sept 2025 |
 | 3606 | [Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Hash%20Table/3606-coupon-code-validator.md) | 1 | 6 ms, beats 85.8% | - | 24 Mar 2026 |
 | 3668 | [Restore Finishing Order](https://leetcode.com/problems/restore-finishing-order/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Hash%20Table/3668-restore-finishing-order.md) | 2 | 2 ms, beats 63.7% | - | 3 Sept 2025 |
 | 3692 | [Majority Frequency Characters](https://leetcode.com/problems/majority-frequency-characters/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Hash%20Table/3692-majority-frequency-characters.md) | 1 | 5 ms, beats 55.8% | - | 10 Dec 2025 |
