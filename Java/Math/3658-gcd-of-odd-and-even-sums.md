@@ -40,3 +40,25 @@ class Solution {
     }
 }
 ```
+
+## Approach 3 — 2026-04-05 21:33 (java)
+
+*Runtime: 3 ms (faster than 21.8%) · Memory: 42.3 MB*
+
+```java
+class Solution {
+    public int gcdOfOddEvenSums(int n) {
+        int sumO=0,sumE=0;
+        for(int i=1;i<=2*n;i++){
+            if(i%2==0)sumE+=i;
+            else sumO+=i;
+        }
+    return GCD(sumO,sumE);
+    }
+    int GCD(int a,int b){
+        if(a==0)return b;
+        if(b==0)return a;
+        return GCD(b,a%b);
+    }
+}
+```
