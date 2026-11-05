@@ -7,7 +7,7 @@ Java DSA
 
 <img alt="Ved-u's LeetCode Journey" src=".leetstash/banner.svg" width="100%">
 
-<a href="https://leetcode.com/u/VedantUtpat/"><img alt="LeetCode profile" src="https://img.shields.io/badge/LeetCode-VedantUtpat-ffa116?style=for-the-badge&logo=leetcode&logoColor=white"></a> <img alt="Solved" src="https://img.shields.io/badge/Solved-795-2ea043?style=for-the-badge">
+<a href="https://leetcode.com/u/VedantUtpat/"><img alt="LeetCode profile" src="https://img.shields.io/badge/LeetCode-VedantUtpat-ffa116?style=for-the-badge&logo=leetcode&logoColor=white"></a> <img alt="Solved" src="https://img.shields.io/badge/Solved-795-2ea043?style=for-the-badge"> <img alt="Streak" src="https://img.shields.io/badge/Streak-1%20day-f0883e?style=for-the-badge">
 
 <b><a href="#ls-activity">Activity</a> &nbsp;·&nbsp; <a href="#ls-recent">Recent</a> &nbsp;·&nbsp; <a href="#ls-progress">Progress</a> &nbsp;·&nbsp; <a href="#ls-skills">Skills</a> &nbsp;·&nbsp; <a href="#ls-languages">Languages</a> &nbsp;·&nbsp; <a href="#ls-problems">All problems</a></b>
 
@@ -15,7 +15,7 @@ Java DSA
 
 
 
-⏳ 665 solved problems still being imported from LeetCode.
+⏳ 662 solved problems still being imported from LeetCode.
 
 </div>
 
@@ -33,6 +33,8 @@ Java DSA
 
 | Date | Problem | Difficulty | Solution |
 |---|---|---|---|
+| 5 Nov 2026 | [Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/1385-find-the-distance-value-between-two-arrays.md) |
+| 29 Oct 2026 | [Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/1360-number-of-days-between-two-dates.md) |
 | 22 Oct 2026 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | 🟡 Medium | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Divide%20and%20Conquer/0240-search-a-2d-matrix-ii.md) |
 | 22 Oct 2026 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Tree/0617-merge-two-binary-trees.md) |
 | 14 Oct 2026 | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque/) | 🟡 Medium | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Linked%20List/0641-design-circular-deque.md) |
@@ -41,8 +43,6 @@ Java DSA
 | 7 Oct 2026 | [Design Linked List](https://leetcode.com/problems/design-linked-list/) | 🟡 Medium | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Linked%20List/0707-design-linked-list.md) |
 | 6 Oct 2026 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 Medium | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Greedy/0921-minimum-add-to-make-parentheses-valid.md) |
 | 3 Oct 2026 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Bit%20Manipulation/0405-convert-a-number-to-hexadecimal.md) |
-| 25 Sept 2026 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Tree/0993-cousins-in-binary-tree.md) |
-| 24 Sept 2026 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | 🟢 Easy | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Tree/0897-increasing-order-search-tree.md) |
 
 <p align="right"><a href="#ls-top">↑ Back to top</a></p>
 
@@ -55,8 +55,8 @@ Java DSA
 xychart-beta
     title "Problems solved (total)"
     x-axis ["Dec 25", "Jan 26", "Feb 26", "Mar 26", "Apr 26", "May 26", "Jun 26", "Jul 26", "Aug 26", "Sept 26", "Oct 26", "Nov 26"]
-    y-axis "Solved" 0 --> 150
-    line [82, 82, 82, 86, 95, 97, 106, 110, 114, 122, 130, 130]
+    y-axis "Solved" 0 --> 155
+    line [82, 82, 82, 86, 95, 97, 106, 110, 114, 123, 132, 133]
 ```
 
 <p align="right"><a href="#ls-top">↑ Back to top</a></p>
@@ -180,7 +180,7 @@ _Topic coverage: a problem counts toward every topic it's tagged with._
 
 | Language | Problems | |
 |---|---|---|
-| Java | 130 | `████████████████` |
+| Java | 133 | `████████████████` |
 | Python | 1 | `█░░░░░░░░░░░░░░░` |
 
 <p align="right"><a href="#ls-top">↑ Back to top</a></p>
@@ -224,7 +224,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/1295-find-numbers-with-even-number-of-digits.md) | 1 | 1 ms, beats 99.7% | - | 9 Aug 2024 |
 | 1304 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/1304-find-n-unique-integers-sum-up-to-zero.md) | 1 | 0 ms, beats 100.0% | - | 9 Feb 2024 |
 | 1317 | [Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/1317-convert-integer-to-the-sum-of-two-no-zero-integers.md) | 3 | 13 ms, beats 5.6% | - | 14 Sept 2025 |
-| 1360 | [Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1360 | [Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Math/1360-number-of-days-between-two-dates.md) | 1 | - | - | 29 Oct 2026 |
 | 1390 | [Four Divisors](https://leetcode.com/problems/four-divisors/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 1492 | [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) | 🟢 | ⏳ not imported yet | - | - | - | - |
@@ -941,7 +941,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | 1095 | [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/) | 🔴 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/1095-find-in-mountain-array.md) | 1 | 0 ms, beats 100.0% | - | 12 Oct 2023 |
 | 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/1346-check-if-n-and-its-double-exist.md) | 1 | 2 ms, beats 97.0% | - | 1 Dec 2024 |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | 🟢 | ⏳ not imported yet | - | - | - | - |
-| 1385 | [Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/) | 🟢 | ⏳ not imported yet | - | - | - | - |
+| 1385 | [Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/) | 🟢 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Binary%20Search/1385-find-the-distance-value-between-two-arrays.md) | 1 | - | - | 5 Nov 2026 |
 | 1608 | [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 2089 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 | ⏳ not imported yet | - | - | - | - |
 | 2540 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/) | 🟢 | ⏳ not imported yet | - | - | - | - |
@@ -1023,7 +1023,7 @@ _Grouped by topic folder. Click a topic to expand it._
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Divide%20and%20Conquer/0347-top-k-frequent-elements.md) | 1 | 25 ms, beats 6.4% | - | 17 Aug 2024 |
 | 654 | [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Divide%20and%20Conquer/0654-maximum-binary-tree.md) | 1 | - | - | 19 Sept 2026 |
 | 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | 🟡 | ⏳ not imported yet | - | - | - | - |
-| 1382 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | 🟡 | ⏳ not imported yet | - | - | - | - |
+| 1382 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | 🟡 | [Java](https://github.com/Ved-u/Java-DSA/blob/main/Java/Divide%20and%20Conquer/1382-balance-a-binary-search-tree.md) | 1 | - | - | 22 Sept 2026 |
 | 3737 | [Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/) | 🟡 | ⏳ not imported yet | - | - | - | - |
 
 </details>
